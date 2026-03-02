@@ -8,5 +8,6 @@ This project is built upon the incredible work of the ROM hacking community. All
 * **gold97 (SoupPotato)**
 * **kep-hack (ShiraTheMogul)**
 * **polishedcrystal (Rangi42)**
+* **shinpokered (jojobear13)**
 
 ## ❤️ Special Thanks
