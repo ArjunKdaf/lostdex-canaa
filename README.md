@@ -1,5 +1,5 @@
 # Lostmon Canaã Pokedex
-https://arjunkdaf.github.io/lostmon-canaa-dex/
+https://arjunkdaf.github.io/lostdex-canaa/
 
 Welcome to the official Pokédex repository for **Lostmon Canaã**. 
 
