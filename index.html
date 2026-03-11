@@ -183,12 +183,13 @@
     width: 40px; height: 40px; image-rendering: pixelated;
   }
   .card .name-bar {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    display: flex; align-items: center; gap: 4px;
-    background: rgba(0,0,0,0.72); padding: 2px 5px;
-    /* bottom corners match the card's own border-radius exactly */
-    border-radius: 0 0 12px 12px;
-    overflow: hidden;
+    position: absolute; bottom: 0; left: 0;
+    display: inline-flex; align-items: center; gap: 4px;
+    background: rgba(0,0,0,0.72); padding: 3px 8px;
+    /* top-right curves inward; bottom corners are 0 so the card's own
+       overflow:hidden clips them cleanly to the card's 12px radius */
+    border-radius: 0 10px 0 0;
+    max-width: 90%; overflow: hidden;
     z-index: 3;
   }
   .card .num {
