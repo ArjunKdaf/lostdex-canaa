@@ -183,9 +183,10 @@
     width: 40px; height: 40px; image-rendering: pixelated;
   }
   .card .name-bar {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    display: flex; align-items: center; gap: 4px;
-    background: rgba(0,0,0,0.62); padding: 3px 5px;
+    position: absolute; bottom: 5px; left: 50%; transform: translateX(-50%);
+    display: inline-flex; align-items: center; gap: 4px;
+    background: rgba(0,0,0,0.62); padding: 3px 8px;
+    border-radius: 8px; max-width: 90%; overflow: hidden;
     z-index: 3;
   }
   .card .num {
@@ -194,10 +195,6 @@
   .card .name {
     font-size: 0.68rem; font-weight: bold; color: var(--text);
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    flex: 1;
-  }
-  .card .name-badge {
-    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
   }
   .name-badge {
     width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
@@ -496,12 +493,7 @@
 <footer>Lostmon Canaã — Sprites used from gold97 (SoupPotato), kep-hack (ShiraTheMogul), polishedcrystal (Rangi42) and shinpokered (jojobear13).</footer>
 
 <script>
-// GS97R: https://raw.githubusercontent.com/SoupPotato/gold97/master/gfx/pokemon/{name}/front.png
-// KEP:   https://raw.githubusercontent.com/ShiraTheMogul/kep-hack/master/gfx/pokemon/front/{name}.png
-// NOTE: KEP uses a flat front/ folder with name.png files (NOT subfolders)
 
-// OFFLINE MODE — sprites loaded from local sprites/ folder
-// Run download_sprites.sh first to populate the folder!
 
 let showBack = false;
 let currentData = [];
@@ -817,8 +809,8 @@ function buildGrid(data) {
       </div>
       <div class="name-bar">
         <span class="num">#${String(num).padStart(3,'0')}</span>
-        <span class="name">${name.replace(/_/g, ' ')}</span>
         <span class="name-badge ${getDotClass(source)}" title="${getSourceLabel(source)}"></span>
+        <span class="name">${name.replace(/_/g, ' ')}</span>
       </div>
     `;
     card.addEventListener('click', () => openDetail(num));
@@ -863,7 +855,7 @@ function toggleSource(btn) {
 function filterDex() {
   const q = document.getElementById('search').value.toLowerCase();
   const active = [...document.querySelectorAll('.src-btn.active')].map(b => b.dataset.src);
-  const filtered = DEX.filter(([num, name, evo, source]) => {
+  const filtered = DEX.filter(([num, name, , source]) => {
     const matchName = name.toLowerCase().includes(q);
     const matchSrc = active.length === 0 || active.includes(source);
     return matchName && matchSrc;
@@ -924,40 +916,39 @@ function typeBadge(type, cls='type-badge') {
 
 function openDetail(pid) {
   if (!pokemonData) return;
-  const p = pokemonData[String(pid)];
-  if (!p) return;
+  const pokemon = pokemonData[String(pid)];
+  if (!pokemon) return;
   currentDetailId = pid;
   document.getElementById('detail-prev').disabled = false;
   document.getElementById('detail-next').disabled = false;
 
   // header
-  const dexEntry = DEX.find(d => d[0] === pid);
   document.getElementById('detail-num').textContent = '#' + String(pid).padStart(3,'0');
-  document.getElementById('detail-name').textContent = p.name.replace(/_/g,' ');
+  document.getElementById('detail-name').textContent = pokemon.name.replace(/_/g,' ');
 
-  const species = p.dex && p.dex.species ? p.dex.species : '';
+  const species = pokemon.dex && pokemon.dex.species ? pokemon.dex.species : '';
   document.getElementById('detail-species').textContent = species ? species + ' Pokémon' : '';
 
   const typesEl = document.getElementById('detail-types');
-  typesEl.innerHTML = p.types.map(t => typeBadge(t)).join('');
+  typesEl.innerHTML = pokemon.types.map(typeName => typeBadge(typeName)).join('');
 
   const mainImg = document.getElementById('detail-sprite');
-  loadSpriteInto(mainImg, p.name);
+  loadSpriteInto(mainImg, pokemon.name);
 
   // evoline
-  buildEvoLine(p, pid);
+  buildEvoLine(pokemon, pid);
 
   // stats
-  buildStats(p.stats);
+  buildStats(pokemon.stats);
 
   // dex text
   document.getElementById('detail-dex-text').textContent =
-    p.dex && p.dex.text ? '"' + p.dex.text + '"' : '—';
-  if (p.dex && p.dex.height) {
-    const h = p.dex.height, w = p.dex.weight;
-    const ft = Math.floor(h/100), inch = Math.round((h % 100) * 0.393701);
+    pokemon.dex && pokemon.dex.text ? '"' + pokemon.dex.text + '"' : '—';
+  if (pokemon.dex && pokemon.dex.height) {
+    const heightRaw = pokemon.dex.height, weightRaw = pokemon.dex.weight;
+    const feet = Math.floor(heightRaw / 100), inches = Math.round((heightRaw % 100) * 0.393701);
     document.getElementById('detail-dex-hw').textContent =
-      `Height: ${ft}'${inch.toString().padStart(2,'0')}"  Weight: ${(w/10).toFixed(1)} kg`;
+      `Height: ${feet}'${inches.toString().padStart(2,'0')}"  Weight: ${(weightRaw/10).toFixed(1)} kg`;
   } else {
     document.getElementById('detail-dex-hw').textContent = '';
   }
@@ -965,7 +956,7 @@ function openDetail(pid) {
   // moves
   const tbody = document.getElementById('detail-moves');
   tbody.innerHTML = '';
-  (p.moves || []).forEach(mv => {
+  (pokemon.moves || []).forEach(mv => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td class="move-level">${mv.level === 0 ? '—' : mv.level}</td>
@@ -980,11 +971,11 @@ function openDetail(pid) {
 }
 
 function buildEvoEntry(pid, activePid) {
-  const pd = pokemonData[String(pid)];
-  if (!pd) return null;
+  const pokemon = pokemonData[String(pid)];
+  if (!pokemon) return null;
   const entry = document.createElement('div');
   entry.className = 'evo-entry' + (pid === activePid ? ' active' : '');
-  entry.title = pd.name.replace(/_/g,' ');
+  entry.title = pokemon.name.replace(/_/g,' ');
   entry.onclick = () => openDetail(pid);
   const imgEl = document.createElement('img');
   imgEl.width = 68; imgEl.height = 68;
@@ -993,27 +984,27 @@ function buildEvoEntry(pid, activePid) {
   box.appendChild(imgEl);
   const nameDiv = document.createElement('div');
   nameDiv.className = 'evo-name';
-  nameDiv.textContent = pd.name.replace(/_/g,' ');
+  nameDiv.textContent = pokemon.name.replace(/_/g,' ');
   entry.appendChild(box);
   entry.appendChild(nameDiv);
-  loadSpriteInto(imgEl, pd.name);
+  loadSpriteInto(imgEl, pokemon.name);
   return entry;
 }
 
 function makeArrow(label) {
-  const d = document.createElement('div');
-  d.style.cssText = 'display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:center;min-width:72px;gap:2px';
-  d.innerHTML = `<span style="font-size:1.2rem;color:var(--muted)">→</span>`
+  const arrowDiv = document.createElement('div');
+  arrowDiv.style.cssText = 'display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:center;min-width:72px;gap:2px';
+  arrowDiv.innerHTML = `<span style="font-size:1.2rem;color:var(--muted)">→</span>`
     + (label ? `<span style="font-size:0.62rem;color:var(--muted);white-space:nowrap;text-align:center">${label}</span>` : '');
-  return d;
+  return arrowDiv;
 }
 
-function buildEvoLine(p, activePid) {
-  const el = document.getElementById('detail-evoline');
-  el.innerHTML = '';
-  const line = p.evoline || [activePid];
+function buildEvoLine(pokemon, activePid) {
+  const evolineContainer = document.getElementById('detail-evoline');
+  evolineContainer.innerHTML = '';
+  const line = pokemon.evoline || [activePid];
   if (line.length <= 1) {
-    el.innerHTML = '<span style="color:var(--muted);font-size:0.8rem">No evolution</span>';
+    evolineContainer.innerHTML = '<span style="color:var(--muted);font-size:0.8rem">No evolution</span>';
     return;
   }
 
@@ -1022,9 +1013,9 @@ function buildEvoLine(p, activePid) {
   const evoParents = {};   // pid → [parent pids]
   const evoChildren = {};  // pid → [child pids, in evos order]
   line.forEach(pid => {
-    const pd = pokemonData[String(pid)];
-    if (!pd || !pd.evos) return;
-    pd.evos.forEach(evo => {
+    const pokemonEntry = pokemonData[String(pid)];
+    if (!pokemonEntry || !pokemonEntry.evos) return;
+    pokemonEntry.evos.forEach(evo => {
       if (!lineSet.has(evo.target)) return;
       if (!evoParents[evo.target]) evoParents[evo.target] = [];
       evoParents[evo.target].push(pid);
@@ -1033,47 +1024,47 @@ function buildEvoLine(p, activePid) {
     });
   });
 
-  // Depth per pid
+  // Compute depth for each member by following first-parent chain to the root
   const depth = {};
   line.forEach(pid => {
-    let d = 0, cur = pid, seen = new Set();
-    while (evoParents[cur] && !seen.has(cur)) { seen.add(cur); cur = evoParents[cur][0]; d++; }
-    depth[pid] = d;
+    let depthCount = 0, current = pid, seen = new Set();
+    while (evoParents[current] && !seen.has(current)) { seen.add(current); current = evoParents[current][0]; depthCount++; }
+    depth[pid] = depthCount;
   });
   const maxDepth = Math.max(...Object.values(depth));
-  if (maxDepth === 0) { el.innerHTML = '<span style="color:var(--muted);font-size:0.8rem">No evolution</span>'; return; }
+  if (maxDepth === 0) { evolineContainer.innerHTML = '<span style="color:var(--muted);font-size:0.8rem">No evolution</span>'; return; }
 
   // Group by depth (line already in correct display order from JSON)
   const byDepth = {};
   line.forEach(pid => {
-    const d = depth[pid];
-    if (!byDepth[d]) byDepth[d] = [];
-    byDepth[d].push(pid);
+    const depthLevel = depth[pid];
+    if (!byDepth[depthLevel]) byDepth[depthLevel] = [];
+    byDepth[depthLevel].push(pid);
   });
 
-  for (let d = 0; d <= maxDepth; d++) {
-    const group = byDepth[d] || [];
-    const nextGroup = byDepth[d + 1] || [];
+  for (let depthLevel = 0; depthLevel <= maxDepth; depthLevel++) {
+    const group = byDepth[depthLevel] || [];
+    const nextGroup = byDepth[depthLevel + 1] || [];
 
-    if (d === 0) {
+    if (depthLevel === 0) {
       if (group.length === 1) {
         // Single root — just show sprite
-        el.appendChild(buildEvoEntry(group[0], activePid));
+        evolineContainer.appendChild(buildEvoEntry(group[0], activePid));
       } else {
         // Multiple roots (e.g. MIME_JR + BALLERINE) — stack vertically, each with own arrow to child
         // Will be handled as part of the column structure below
         const col = document.createElement('div');
         col.style.cssText = 'display:flex;flex-direction:column;gap:6px;align-items:flex-end';
         group.forEach(pid => col.appendChild(buildEvoEntry(pid, activePid)));
-        el.appendChild(col);
+        evolineContainer.appendChild(col);
       }
     } else {
       if (group._skip) continue;
-      if (group.length === 1 && (byDepth[d-1]||[]).length === 1) {
+      if (group.length === 1 && (byDepth[depthLevel - 1] || []).length === 1) {
         // Linear: single arrow + single sprite
         const parentPid = (evoParents[group[0]] || [])[0];
-        el.appendChild(makeArrow(getEvoMethod(parentPid, group[0])));
-        el.appendChild(buildEvoEntry(group[0], activePid));
+        evolineContainer.appendChild(makeArrow(getEvoMethod(parentPid, group[0])));
+        evolineContainer.appendChild(buildEvoEntry(group[0], activePid));
       } else if (group.length > 1) {
         // Branching: one parent → many children — column of [arrow+label + sprite] rows
         // If a child has a single linear continuation, inline it in the same row
@@ -1087,37 +1078,37 @@ function buildEvoLine(p, activePid) {
           row.appendChild(makeArrow(getEvoMethod(parentPid, pid)));
           row.appendChild(buildEvoEntry(pid, activePid));
           // Follow any single linear chain from this child
-          let cur = pid;
-          while ((evoChildren[cur] || []).length === 1) {
-            const nextPid = evoChildren[cur][0];
+          let current = pid;
+          while ((evoChildren[current] || []).length === 1) {
+            const nextPid = evoChildren[current][0];
             if ((evoParents[nextPid] || []).length !== 1) break;
-            row.appendChild(makeArrow(getEvoMethod(cur, nextPid)));
+            row.appendChild(makeArrow(getEvoMethod(current, nextPid)));
             row.appendChild(buildEvoEntry(nextPid, activePid));
             skipDepths.add(depth[nextPid]);
-            cur = nextPid;
+            current = nextPid;
           }
           col.appendChild(row);
         });
-        el.appendChild(col);
-        skipDepths.forEach(sd => { if (byDepth[sd]) byDepth[sd]._skip = true; });
+        evolineContainer.appendChild(col);
+        skipDepths.forEach(skippedDepth => { if (byDepth[skippedDepth]) byDepth[skippedDepth]._skip = true; });
       } else {
         // Single child, multiple parents (convergent) — parents already rendered with own arrows
         // Just show shared arrow + sprite
         const parentPid = (evoParents[group[0]] || [])[0];
-        el.appendChild(makeArrow(getEvoMethod(parentPid, group[0])));
-        el.appendChild(buildEvoEntry(group[0], activePid));
+        evolineContainer.appendChild(makeArrow(getEvoMethod(parentPid, group[0])));
+        evolineContainer.appendChild(buildEvoEntry(group[0], activePid));
       }
     }
 
     // After rendering depth-0 multi-root, inject individual arrows pointing to their shared child
-    if (d === 0 && group.length > 1 && nextGroup.length === 1) {
+    if (depthLevel === 0 && group.length > 1 && nextGroup.length === 1) {
       const childPid = nextGroup[0];
       const col = document.createElement('div');
       col.style.cssText = 'display:flex;flex-direction:column;gap:6px;align-self:center;align-items:center';
       group.forEach(pid => col.appendChild(makeArrow(getEvoMethod(pid, childPid))));
-      el.appendChild(col);
+      evolineContainer.appendChild(col);
       // Render the convergent child directly here and mark depth 1 as done
-      el.appendChild(buildEvoEntry(childPid, activePid));
+      evolineContainer.appendChild(buildEvoEntry(childPid, activePid));
       byDepth[1] = byDepth[1] || [];
       byDepth[1]._skip = true;
     }
@@ -1126,16 +1117,16 @@ function buildEvoLine(p, activePid) {
 
 
 function getEvoMethod(fromPid, toPid) {
-  const pd = pokemonData[String(fromPid)];
-  if (!pd || !pd.evos) return '';
-  const evo = pd.evos.find(e => e.target === toPid);
+  const fromPokemon = pokemonData[String(fromPid)];
+  if (!fromPokemon || !fromPokemon.evos) return '';
+  const evo = fromPokemon.evos.find(e => e.target === toPid);
   if (!evo) return '';
-  const m = evo.method, p = evo.param || '';
-  if (m === 'EVOLVE_LEVEL') return 'Lv.' + p;
-  if (m === 'EVOLVE_ITEM') return p.replace(/_/g,' ').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());
-  if (m === 'EVOLVE_TRADE') return p && p !== '-1' ? 'Trade\n(' + p.replace(/_/g,' ') + ')' : 'Trade';
-  if (m === 'EVOLVE_HAPPINESS') return 'Happiness';
-  if (m === 'EVOLVE_STAT') return 'Lv.' + p + '\n(Stat)';
+  const method = evo.method, param = evo.param || '';
+  if (method === 'EVOLVE_LEVEL') return 'Lv.' + param;
+  if (method === 'EVOLVE_ITEM') return param.replace(/_/g,' ').toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+  if (method === 'EVOLVE_TRADE') return param && param !== '-1' ? 'Trade\n(' + param.replace(/_/g,' ') + ')' : 'Trade';
+  if (method === 'EVOLVE_HAPPINESS') return 'Happiness';
+  if (method === 'EVOLVE_STAT') return 'Lv.' + param + '\n(Stat)';
   return '';
 }
 
@@ -1161,7 +1152,7 @@ function buildStats(stats) {
 }
 
 function navigateDex(dir) {
-  const ids = DEX.map(d => d[0]);
+  const ids = DEX.map(entry => entry[0]);
   const idx = ids.indexOf(currentDetailId);
   if (idx === -1) return;
   const nextIdx = (idx + dir + ids.length) % ids.length;
