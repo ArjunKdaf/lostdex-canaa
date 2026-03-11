@@ -15987,91 +15987,6 @@
     ]
   },
   "189": {
-    "name": "SNEASLER",
-    "types": [
-      "POISON",
-      "FIGHTING"
-    ],
-    "stats": {
-      "hp": 80,
-      "atk": 130,
-      "def": 60,
-      "spd": 115,
-      "satk": 40,
-      "sdef": 80,
-      "total": 505
-    },
-    "dex": {
-      "species": "FREE CLIMB",
-      "height": 404,
-      "weight": 1080,
-      "text": "As nimble as a mountain goat, it scales sheer cliffs effortlessly. It leaves deep claw marks as it climbs."
-    },
-    "evoline": [
-      187,
-      188,
-      189
-    ],
-    "evos": [],
-    "moves": [
-      {
-        "level": 1,
-        "move": "SCRATCH",
-        "type": "NORMAL"
-      },
-      {
-        "level": 1,
-        "move": "LEER",
-        "type": "NORMAL"
-      },
-      {
-        "level": 8,
-        "move": "QUICK_ATTACK",
-        "type": "NORMAL"
-      },
-      {
-        "level": 11,
-        "move": "SCREECH",
-        "type": "NORMAL"
-      },
-      {
-        "level": 16,
-        "move": "FAINT_ATTACK",
-        "type": "DARK"
-      },
-      {
-        "level": 21,
-        "move": "FURY_SWIPES",
-        "type": "NORMAL"
-      },
-      {
-        "level": 27,
-        "move": "SLAM",
-        "type": "NORMAL"
-      },
-      {
-        "level": 32,
-        "move": "AGILITY",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 38,
-        "move": "METAL_CLAW",
-        "type": "STEEL"
-      },
-      {
-        "level": 44,
-        "move": "SWORDS_DANCE",
-        "type": "NORMAL"
-      },
-      {
-        "level": 49,
-        "move": "SLASH",
-        "type": "NORMAL"
-      }
-    ]
-  },
-  "190": {
     "name": "PORYGON",
     "types": [
       "NORMAL"
@@ -16172,7 +16087,7 @@
       }
     ]
   },
-  "191": {
+  "190": {
     "name": "BETAGON",
     "types": [
       "NORMAL"
@@ -16257,7 +16172,7 @@
       }
     ]
   },
-  "192": {
+  "191": {
     "name": "PORYGON2",
     "types": [
       "NORMAL"
@@ -16348,7 +16263,7 @@
       }
     ]
   },
-  "193": {
+  "192": {
     "name": "PORYGON_Z",
     "types": [
       "NORMAL"
@@ -19117,5 +19032,65 @@
         "type": "NORMAL"
       }
     ]
+  },
+  "193": {
+    "name": "HAPPINY",
+    "types": [
+      "NORMAL"
+    ],
+    "stats": {
+      "hp": 100,
+      "atk": 5,
+      "def": 5,
+      "spd": 30,
+      "sat": 15,
+      "sdf": 65
+    },
+    "abilities": [
+      "NATURAL_CURE",
+      "SERENE_GRACE"
+    ],
+    "moves": {
+      "level": [
+        {
+          "level": 1,
+          "move": "POUND"
+        },
+        {
+          "level": 1,
+          "move": "CHARM"
+        },
+        {
+          "level": 9,
+          "move": "COPYCAT"
+        },
+        {
+          "level": 15,
+          "move": "SWEET_KISS"
+        },
+        {
+          "level": 23,
+          "move": "MINIMIZE"
+        },
+        {
+          "level": 31,
+          "move": "SOFTBOILED"
+        }
+      ],
+      "tm": [],
+      "egg": []
+    },
+    "evolutions": [
+      {
+        "method": "happiness",
+        "into": "CHANSEY"
+      }
+    ],
+    "dex": {
+      "species": "PLAYFUL",
+      "height": 2,
+      "weight": 244,
+      "text": "It carries a roundish white stone in its pouch."
+    }
   }
 }
