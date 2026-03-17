@@ -2700,31 +2700,38 @@
     "moves": [
       {
         "level": 1,
-        "move": "PECK"
+        "move": "PECK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 10,
-        "move": "FURY_ATTACK"
+        "move": "FURY_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 20,
-        "move": "DRILL_PECK"
+        "move": "DRILL_PECK",
+        "type": "FLYING"
       },
       {
         "level": 25,
-        "move": "SWAGGER"
+        "move": "SWAGGER",
+        "type": "NORMAL"
       },
       {
         "level": 30,
-        "move": "SKY_ATTACK"
+        "move": "SKY_ATTACK",
+        "type": "FLYING"
       }
     ]
   },
@@ -2764,31 +2771,38 @@
     "moves": [
       {
         "level": 1,
-        "move": "PECK"
+        "move": "PECK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 10,
-        "move": "FURY_ATTACK"
+        "move": "FURY_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 22,
-        "move": "DRILL_PECK"
+        "move": "DRILL_PECK",
+        "type": "FLYING"
       },
       {
         "level": 29,
-        "move": "SWAGGER"
+        "move": "SWAGGER",
+        "type": "NORMAL"
       },
       {
         "level": 36,
-        "move": "SKY_ATTACK"
+        "move": "SKY_ATTACK",
+        "type": "FLYING"
       }
     ]
   },
@@ -2822,43 +2836,53 @@
     "moves": [
       {
         "level": 1,
-        "move": "SCREECH"
+        "move": "SCREECH",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "PECK"
+        "move": "PECK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 10,
-        "move": "FURY_ATTACK"
+        "move": "FURY_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 22,
-        "move": "DRILL_PECK"
+        "move": "DRILL_PECK",
+        "type": "FLYING"
       },
       {
         "level": 29,
-        "move": "STEEL_WING"
+        "move": "STEEL_WING",
+        "type": "STEEL"
       },
       {
         "level": 36,
-        "move": "SWAGGER"
+        "move": "SWAGGER",
+        "type": "NORMAL"
       },
       {
         "level": 45,
-        "move": "SKY_ATTACK"
+        "move": "SKY_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 54,
-        "move": "DEFENSE_CURL"
+        "move": "DEFENSE_CURL",
+        "type": "NORMAL"
       }
     ]
   },
@@ -5719,11 +5743,13 @@
     "moves": [
       {
         "level": 1,
-        "move": "TELEPORT"
+        "move": "TELEPORT",
+        "type": "PSYCHIC"
       },
       {
         "level": 14,
-        "move": "CONFUSION"
+        "move": "CONFUSION",
+        "type": "PSYCHIC"
       }
     ]
   },
@@ -9879,51 +9905,63 @@
     "moves": [
       {
         "level": 1,
-        "move": "PECK"
+        "move": "PECK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "TAIL_WHIP"
+        "move": "TAIL_WHIP",
+        "type": "NORMAL"
       },
       {
         "level": 5,
-        "move": "SUPERSONIC"
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
       },
       {
         "level": 10,
-        "move": "WATER_GUN"
+        "move": "WATER_GUN",
+        "type": "WATER"
       },
       {
         "level": 15,
-        "move": "FURY_ATTACK"
+        "move": "FURY_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 20,
-        "move": "FLAIL"
+        "move": "FLAIL",
+        "type": "NORMAL"
       },
       {
         "level": 25,
-        "move": "HORN_ATTACK"
+        "move": "HORN_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 30,
-        "move": "WATERFALL"
+        "move": "WATERFALL",
+        "type": "WATER"
       },
       {
         "level": 35,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 40,
-        "move": "MEGAHORN"
+        "move": "MEGAHORN",
+        "type": "BUG"
       },
       {
         "level": 45,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 50,
-        "move": "HORN_DRILL"
+        "move": "HORN_DRILL",
+        "type": "NORMAL"
       }
     ]
   },
@@ -9956,63 +9994,78 @@
     "moves": [
       {
         "level": 1,
-        "move": "PECK"
+        "move": "PECK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "TAIL_WHIP"
+        "move": "TAIL_WHIP",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "SUPERSONIC"
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "WATER_GUN"
+        "move": "WATER_GUN",
+        "type": "WATER"
       },
       {
         "level": 10,
-        "move": "FURY_ATTACK"
+        "move": "FURY_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 15,
-        "move": "FLAIL"
+        "move": "FLAIL",
+        "type": "NORMAL"
       },
       {
         "level": 20,
-        "move": "HORN_ATTACK"
+        "move": "HORN_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 25,
-        "move": "WATERFALL"
+        "move": "WATERFALL",
+        "type": "WATER"
       },
       {
         "level": 30,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 35,
-        "move": "DRILL_PECK"
+        "move": "DRILL_PECK",
+        "type": "FLYING"
       },
       {
         "level": 40,
-        "move": "MEGAHORN"
+        "move": "MEGAHORN",
+        "type": "BUG"
       },
       {
         "level": 45,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 50,
-        "move": "SWORDS_DANCE"
+        "move": "SWORDS_DANCE",
+        "type": "NORMAL"
       },
       {
         "level": 55,
-        "move": "HORN_DRILL"
+        "move": "HORN_DRILL",
+        "type": "NORMAL"
       },
       {
         "level": 60,
-        "move": "HYPER_BEAM"
+        "move": "HYPER_BEAM",
+        "type": "NORMAL"
       }
     ]
   },
@@ -10052,39 +10105,48 @@
     "moves": [
       {
         "level": 1,
-        "move": "TACKLE"
+        "move": "TACKLE",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "GROWL"
+        "move": "GROWL",
+        "type": "NORMAL"
       },
       {
         "level": 4,
-        "move": "BUBBLE"
+        "move": "BUBBLE",
+        "type": "WATER"
       },
       {
         "level": 8,
-        "move": "DEFENSE_CURL"
+        "move": "DEFENSE_CURL",
+        "type": "NORMAL"
       },
       {
         "level": 12,
-        "move": "RAGE"
+        "move": "RAGE",
+        "type": "NORMAL"
       },
       {
         "level": 16,
-        "move": "SUPERSONIC"
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
       },
       {
         "level": 20,
-        "move": "BUBBLEBEAM"
+        "move": "BUBBLEBEAM",
+        "type": "WATER"
       },
       {
         "level": 24,
-        "move": "SCREECH"
+        "move": "SCREECH",
+        "type": "NORMAL"
       },
       {
         "level": 28,
-        "move": "IRON_TAIL"
+        "move": "IRON_TAIL",
+        "type": "STEEL"
       }
     ]
   },
@@ -13601,8 +13663,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -13740,8 +13802,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -13830,8 +13892,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -13920,8 +13982,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -14010,8 +14072,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -14120,8 +14182,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -14210,8 +14272,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -14300,8 +14362,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -14390,8 +14452,8 @@
     },
     "evoline": [
       161,
-      163,
       162,
+      163,
       164,
       165,
       166,
@@ -16731,35 +16793,43 @@
     "moves": [
       {
         "level": 1,
-        "move": "BITE"
+        "move": "BITE",
+        "type": "DARK"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 8,
-        "move": "ROCK_THROW"
+        "move": "ROCK_THROW",
+        "type": "ROCK"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 22,
-        "move": "ANCIENTPOWER"
+        "move": "ANCIENTPOWER",
+        "type": "ROCK"
       },
       {
         "level": 29,
-        "move": "ROCK_SLIDE"
+        "move": "ROCK_SLIDE",
+        "type": "ROCK"
       },
       {
         "level": 36,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 40,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       }
     ]
   },
@@ -16792,43 +16862,53 @@
     "moves": [
       {
         "level": 1,
-        "move": "BITE"
+        "move": "BITE",
+        "type": "DARK"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "WING_ATTACK"
+        "move": "WING_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 8,
-        "move": "ROCK_THROW"
+        "move": "ROCK_THROW",
+        "type": "ROCK"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 22,
-        "move": "ANCIENTPOWER"
+        "move": "ANCIENTPOWER",
+        "type": "ROCK"
       },
       {
         "level": 29,
-        "move": "ROCK_SLIDE"
+        "move": "ROCK_SLIDE",
+        "type": "ROCK"
       },
       {
         "level": 36,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 43,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 50,
-        "move": "HYPER_BEAM"
+        "move": "HYPER_BEAM",
+        "type": "NORMAL"
       }
     ]
   },
@@ -16860,47 +16940,58 @@
     "moves": [
       {
         "level": 1,
-        "move": "BITE"
+        "move": "BITE",
+        "type": "DARK"
       },
       {
         "level": 1,
-        "move": "LEER"
+        "move": "LEER",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "SHADOW_BALL"
+        "move": "SHADOW_BALL",
+        "type": "GHOST"
       },
       {
         "level": 8,
-        "move": "ROCK_THROW"
+        "move": "ROCK_THROW",
+        "type": "ROCK"
       },
       {
         "level": 15,
-        "move": "SCARY_FACE"
+        "move": "SCARY_FACE",
+        "type": "NORMAL"
       },
       {
         "level": 22,
-        "move": "ANCIENTPOWER"
+        "move": "ANCIENTPOWER",
+        "type": "ROCK"
       },
       {
         "level": 29,
-        "move": "ROCK_SLIDE"
+        "move": "ROCK_SLIDE",
+        "type": "ROCK"
       },
       {
         "level": 36,
-        "move": "CURSE"
+        "move": "CURSE",
+        "type": "CURSE_T"
       },
       {
         "level": 43,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 50,
-        "move": "PERISH_SONG"
+        "move": "PERISH_SONG",
+        "type": "NORMAL"
       },
       {
         "level": 57,
-        "move": "HYPER_BEAM"
+        "move": "HYPER_BEAM",
+        "type": "NORMAL"
       }
     ]
   },
@@ -17211,47 +17302,58 @@
     "moves": [
       {
         "level": 1,
-        "move": "TACKLE"
+        "move": "TACKLE",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "DEFENSE_CURL"
+        "move": "DEFENSE_CURL",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "CONVERSION"
+        "move": "CONVERSION",
+        "type": "NORMAL"
       },
       {
         "level": 9,
-        "move": "THUNDERSHOCK"
+        "move": "THUNDERSHOCK",
+        "type": "ELECTRIC"
       },
       {
         "level": 12,
-        "move": "PSYBEAM"
+        "move": "PSYBEAM",
+        "type": "PSYCHIC"
       },
       {
         "level": 20,
-        "move": "CONVERSION2"
+        "move": "CONVERSION2",
+        "type": "NORMAL"
       },
       {
         "level": 24,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 32,
-        "move": "RECOVER"
+        "move": "RECOVER",
+        "type": "NORMAL"
       },
       {
         "level": 36,
-        "move": "TRI_ATTACK"
+        "move": "TRI_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 44,
-        "move": "LOCK_ON"
+        "move": "LOCK_ON",
+        "type": "NORMAL"
       },
       {
         "level": 48,
-        "move": "ZAP_CANNON"
+        "move": "ZAP_CANNON",
+        "type": "ELECTRIC"
       }
     ]
   },
@@ -17272,36 +17374,38 @@
       "NATURAL_CURE",
       "SERENE_GRACE"
     ],
-    "moves": {
-      "level": [
-        {
-          "level": 1,
-          "move": "POUND"
-        },
-        {
-          "level": 1,
-          "move": "CHARM"
-        },
-        {
-          "level": 9,
-          "move": "COPYCAT"
-        },
-        {
-          "level": 15,
-          "move": "SWEET_KISS"
-        },
-        {
-          "level": 23,
-          "move": "MINIMIZE"
-        },
-        {
-          "level": 31,
-          "move": "SOFTBOILED"
-        }
-      ],
-      "tm": [],
-      "egg": []
-    },
+    "moves": [
+      {
+        "level": 1,
+        "move": "POUND",
+        "type": "NORMAL"
+      },
+      {
+        "level": 1,
+        "move": "CHARM",
+        "type": "NORMAL"
+      },
+      {
+        "level": 9,
+        "move": "COPYCAT",
+        "type": "NORMAL"
+      },
+      {
+        "level": 15,
+        "move": "SWEET_KISS",
+        "type": "NORMAL"
+      },
+      {
+        "level": 23,
+        "move": "MINIMIZE",
+        "type": "NORMAL"
+      },
+      {
+        "level": 31,
+        "move": "SOFTBOILED",
+        "type": "NORMAL"
+      }
+    ],
     "evolutions": [
       {
         "method": "happiness",
@@ -18060,55 +18164,68 @@
     "moves": [
       {
         "level": 1,
-        "move": "SCREECH"
+        "move": "SCREECH",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "SUPERSONIC"
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "TACKLE"
+        "move": "TACKLE",
+        "type": "NORMAL"
       },
       {
         "level": 6,
-        "move": "ABSORB"
+        "move": "ABSORB",
+        "type": "GRASS"
       },
       {
         "level": 11,
-        "move": "GUST"
+        "move": "GUST",
+        "type": "FLYING"
       },
       {
         "level": 15,
-        "move": "BITE"
+        "move": "BITE",
+        "type": "DARK"
       },
       {
         "level": 20,
-        "move": "WING_ATTACK"
+        "move": "WING_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 25,
-        "move": "TRI_ATTACK"
+        "move": "TRI_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 29,
-        "move": "REST"
+        "move": "REST",
+        "type": "PSYCHIC"
       },
       {
         "level": 34,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 40,
-        "move": "WING_ATTACK"
+        "move": "WING_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 46,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 52,
-        "move": "AEROBLAST"
+        "move": "AEROBLAST",
+        "type": "FLYING"
       }
     ]
   },
@@ -18141,59 +18258,73 @@
     "moves": [
       {
         "level": 1,
-        "move": "DRAGONBREATH"
+        "move": "DRAGONBREATH",
+        "type": "DRAGON"
       },
       {
         "level": 1,
-        "move": "SCREECH"
+        "move": "SCREECH",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "SUPERSONIC"
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
       },
       {
         "level": 1,
-        "move": "TACKLE"
+        "move": "TACKLE",
+        "type": "NORMAL"
       },
       {
         "level": 6,
-        "move": "ABSORB"
+        "move": "ABSORB",
+        "type": "GRASS"
       },
       {
         "level": 11,
-        "move": "GUST"
+        "move": "GUST",
+        "type": "FLYING"
       },
       {
         "level": 15,
-        "move": "BITE"
+        "move": "BITE",
+        "type": "DARK"
       },
       {
         "level": 20,
-        "move": "WING_ATTACK"
+        "move": "WING_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 25,
-        "move": "TRI_ATTACK"
+        "move": "TRI_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 29,
-        "move": "REST"
+        "move": "REST",
+        "type": "PSYCHIC"
       },
       {
         "level": 34,
-        "move": "CRUNCH"
+        "move": "CRUNCH",
+        "type": "DARK"
       },
       {
         "level": 40,
-        "move": "WING_ATTACK"
+        "move": "WING_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 48,
-        "move": "AGILITY"
+        "move": "AGILITY",
+        "type": "PSYCHIC"
       },
       {
         "level": 55,
-        "move": "AEROBLAST"
+        "move": "AEROBLAST",
+        "type": "FLYING"
       }
     ]
   },
@@ -20375,35 +20506,43 @@
     "moves": [
       {
         "level": 1,
-        "move": "WATER_GUN"
+        "move": "WATER_GUN",
+        "type": "WATER"
       },
       {
         "level": 1,
-        "move": "SKY_ATTACK"
+        "move": "SKY_ATTACK",
+        "type": "FLYING"
       },
       {
         "level": 1,
-        "move": "PAY_DAY"
+        "move": "PAY_DAY",
+        "type": "NORMAL"
       },
       {
         "level": 10,
-        "move": "TRI_ATTACK"
+        "move": "TRI_ATTACK",
+        "type": "NORMAL"
       },
       {
         "level": 20,
-        "move": "PSYBEAM"
+        "move": "PSYBEAM",
+        "type": "PSYCHIC"
       },
       {
         "level": 30,
-        "move": "SUBSTITUTE"
+        "move": "SUBSTITUTE",
+        "type": "NORMAL"
       },
       {
         "level": 40,
-        "move": "PSYCHIC_M"
+        "move": "PSYCHIC_M",
+        "type": "PSYCHIC"
       },
       {
         "level": 50,
-        "move": "HYPER_BEAM"
+        "move": "HYPER_BEAM",
+        "type": "NORMAL"
       }
     ]
   }
