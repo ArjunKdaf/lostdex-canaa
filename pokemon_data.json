@@ -3599,8 +3599,8 @@
     ],
     "evos": [
       {
-        "method": "EVOLVE_TRADE",
-        "param": "$ff",
+        "method": "EVOLVE_ITEM",
+        "param": "POISON_STONE",
         "target": 46
       },
       {
@@ -5089,7 +5089,7 @@
         "target": 66
       },
       {
-        "method": "EVOLVE_TRADE",
+        "method": "EVOLVE_ITEM",
         "param": "KINGS_ROCK",
         "target": 66
       }
@@ -5394,8 +5394,8 @@
     ],
     "evos": [
       {
-        "method": "EVOLVE_TRADE",
-        "param": "$ff",
+        "method": "EVOLVE_LEVEL",
+        "param": "38",
         "target": 69
       },
       {
@@ -13975,7 +13975,7 @@
         "target": 167
       },
       {
-        "method": "EVOLVE_TRADE",
+        "method": "EVOLVE_ITEM",
         "param": "DRAGON_SCALE",
         "target": 167
       }
@@ -16024,7 +16024,7 @@
         "target": 192
       },
       {
-        "method": "EVOLVE_TRADE",
+        "method": "EVOLVE_ITEM",
         "param": "UP_GRADE",
         "target": 192
       }
