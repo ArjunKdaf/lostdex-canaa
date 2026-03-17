@@ -5719,8 +5719,11 @@
     "moves": [
       {
         "level": 1,
-        "move": "TELEPORT",
-        "type": "PSYCHIC"
+        "move": "TELEPORT"
+      },
+      {
+        "level": 14,
+        "move": "CONFUSION"
       }
     ]
   },
