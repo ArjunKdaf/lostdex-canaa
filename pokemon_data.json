@@ -1428,11 +1428,6 @@
         "type": "NORMAL"
       },
       {
-        "level": 10,
-        "move": "MEGA_PUNCH",
-        "type": "NORMAL"
-      },
-      {
         "level": 12,
         "move": "COMET_PUNCH",
         "type": "NORMAL"
