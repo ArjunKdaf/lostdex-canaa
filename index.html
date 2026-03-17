@@ -17,7 +17,7 @@
     --kep: #c0392b;
     --canonical: #555f6e;
     --spg: #2e8b57;
-    --canaa: #d4a017;
+    --canaa: #e07030;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Arial, sans-serif; }
@@ -57,7 +57,7 @@
   .src-btn[data-src="kep"].active   { background: rgba(192,57,43,0.18); color: #e05a4a; border-color: var(--kep); }
   .src-btn[data-src="canon"].active { background: rgba(85,95,110,0.25); color: #9aabb8; border-color: #555f6e; }
   .src-btn[data-src="spg"].active   { background: rgba(46,139,87,0.18); color: #4ecb7a; border-color: var(--spg); }
-  .src-btn[data-src="canaa"].active { background: rgba(212,160,23,0.18); color: #e8c840; border-color: var(--canaa); }
+  .src-btn[data-src="canaa"].active { background: rgba(224,112,48,0.18); color: #f09050; border-color: var(--canaa); }
   .ctrl-right { display: flex; gap: 8px; align-items: center; margin-left: auto; }
   .view-toggle { display: flex; gap: 6px; }
   .view-toggle button {
@@ -229,13 +229,14 @@
   .src-kep     { background: rgba(106,177,135,0.2); color: #7dd4a0; }
   .src-canon   { background: rgba(85,95,110,0.2); color: #aabbcc; }
   .src-spg     { background: rgba(46,139,87,0.2); color: #5dba82; }
-  .src-canaa   { background: rgba(212,160,23,0.2); color: #e8c840; }
+  .src-canaa   { background: rgba(224,112,48,0.2); color: #f09050; }
 
   .dot-gs97r  { background: var(--gs97r); }
   .dot-kep    { background: var(--kep); }
   .dot-canon  { background: var(--canonical); }
   .dot-spg    { background: var(--spg); }
   .dot-canaa  { background: var(--canaa); }
+
 
   footer { text-align: center; padding: 24px; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
 
@@ -434,7 +435,7 @@
           <button class="src-btn" data-src="kep" onclick="toggleSource(this)">KEP</button>
           <button class="src-btn" data-src="canon" onclick="toggleSource(this)">Canon</button>
           <button class="src-btn" data-src="spg" onclick="toggleSource(this)">SPG</button>
-          <button class="src-btn" data-src="canaa" onclick="toggleSource(this)">CANAÃ</button>
+          <button class="src-btn" data-src="canaa" onclick="toggleSource(this)">Canaã</button>
         </div>
       </div>
     </div>
@@ -543,13 +544,13 @@ function spriteUrl(name) {
 }
 
 function getSourceClass(source) {
-  const map = { gs97r:'src-gs97r', kep:'src-kep', spg:'src-spg' };
+  const map = { gs97r:'src-gs97r', kep:'src-kep', spg:'src-spg', canaa:'src-canaa' };
   return map[source] || 'src-canon';
 }
 function getDotClass(source) { return 'dot-' + source; }
 
 function getSourceLabel(source) {
-  const map = { gs97r:'GS97R', kep:'KEP', canon:'Canon', spg:'SPG' };
+  const map = { gs97r:'GS97R', kep:'KEP', canon:'Canon', spg:'SPG', canaa:'Canaã' };
   return map[source] || source;
 }
 
