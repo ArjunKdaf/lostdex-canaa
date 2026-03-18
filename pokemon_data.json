@@ -11738,7 +11738,7 @@
       {
         "method": "EVOLVE_ITEM",
         "param": "THUNDERSTONE",
-        "target": 143,
+        "target": 142,
         "target_name": "ELECTIVIRE"
       }
     ],
