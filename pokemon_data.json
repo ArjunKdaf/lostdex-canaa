@@ -11186,14 +11186,15 @@
     "evoline": [
       134,
       135,
-      136
+      136,
+      137
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
-        "param": "30",
+        "param": "15",
         "target": 135,
-        "target_name": "MAGMAR"
+        "target_name": "ELEKID"
       }
     ],
     "moves": [
@@ -11254,7 +11255,7 @@
       }
     ]
   },
-  "135": {
+  "136": {
     "name": "MAGMAR",
     "types": [
       "FIRE"
@@ -11277,13 +11278,14 @@
     "evoline": [
       134,
       135,
-      136
+      136,
+      137
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "FIRE_STONE",
-        "target": 136,
+        "target": 137,
         "target_name": "MAGMORTAR"
       }
     ],
@@ -11345,7 +11347,7 @@
       }
     ]
   },
-  "136": {
+  "137": {
     "name": "MAGMORTAR",
     "types": [
       "FIRE"
@@ -11368,7 +11370,8 @@
     "evoline": [
       134,
       135,
-      136
+      136,
+      137
     ],
     "evos": [],
     "moves": [
@@ -11429,7 +11432,7 @@
       }
     ]
   },
-  "137": {
+  "138": {
     "name": "SMOOCHUM",
     "types": [
       "ICE"
@@ -11450,14 +11453,14 @@
       "text": "Its lips are the most sensitive parts on its body. It always uses its lips first to examine things."
     },
     "evoline": [
-      137,
-      138
+      138,
+      139
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 138,
+        "target": 139,
         "target_name": "JYNX"
       }
     ],
@@ -11524,7 +11527,7 @@
       }
     ]
   },
-  "138": {
+  "139": {
     "name": "JYNX",
     "types": [
       "ICE",
@@ -11546,8 +11549,8 @@
       "text": "It rocks its body rhythmically. It appears to alter the rhythm depend- ing on how it is feeling."
     },
     "evoline": [
-      137,
-      138
+      138,
+      139
     ],
     "evos": [],
     "moves": [
@@ -11613,7 +11616,7 @@
       }
     ]
   },
-  "139": {
+  "140": {
     "name": "ELEBABE",
     "types": [
       "ELECTRIC"
@@ -11634,15 +11637,15 @@
       "text": "Surrounds itself in a field of weak electricity. Even a gentle touch delivers a mild static shock."
     },
     "evoline": [
-      139,
       140,
-      141
+      141,
+      142
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 140,
+        "target": 141,
         "target_name": "ELECTABUZZ"
       }
     ],
@@ -11704,7 +11707,7 @@
       }
     ]
   },
-  "140": {
+  "141": {
     "name": "ELECTABUZZ",
     "types": [
       "ELECTRIC"
@@ -11725,15 +11728,15 @@
       "text": "Electricity runs across the surface of its body. In darkness, its en- tire body glows a whitish-blue."
     },
     "evoline": [
-      139,
       140,
-      141
+      141,
+      142
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "THUNDERSTONE",
-        "target": 141,
+        "target": 142,
         "target_name": "ELECTIVIRE"
       }
     ],
@@ -11795,7 +11798,7 @@
       }
     ]
   },
-  "141": {
+  "142": {
     "name": "ELECTIVIRE",
     "types": [
       "ELECTRIC"
@@ -11816,9 +11819,9 @@
       "text": "When it's excited, it beats its chest repeatedly. With every thud, it discharges sparks of electricity."
     },
     "evoline": [
-      139,
       140,
-      141
+      141,
+      142
     ],
     "evos": [],
     "moves": [
@@ -11879,7 +11882,7 @@
       }
     ]
   },
-  "142": {
+  "143": {
     "name": "BALLERINE",
     "types": [
       "PSYCHIC"
@@ -11900,14 +11903,14 @@
       "text": "It trains daily to perfect its graceful movements. Rivals are often entranced watching it battle dance."
     },
     "evoline": [
-      142,
-      144
+      143,
+      145
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 144,
+        "target": 145,
         "target_name": "MR__MIME"
       }
     ],
@@ -11989,7 +11992,7 @@
       }
     ]
   },
-  "143": {
+  "144": {
     "name": "MIME_JR",
     "types": [
       "PSYCHIC"
@@ -12010,14 +12013,14 @@
       "text": "Its nimble ballet moves compell foes to spin themselves out too. Spinning them right into a confused state."
     },
     "evoline": [
-      143,
-      144
+      144,
+      145
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 144,
+        "target": 145,
         "target_name": "MR__MIME"
       }
     ],
@@ -12036,124 +12039,6 @@
         "level": 1,
         "move": "TACKLE",
         "type": "NORMAL"
-      },
-      {
-        "level": 4,
-        "move": "HYPNOSIS",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 8,
-        "move": "MEDITATE",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 11,
-        "move": "DOUBLESLAP",
-        "type": "NORMAL"
-      },
-      {
-        "level": 13,
-        "move": "PROTECT",
-        "type": "NORMAL"
-      },
-      {
-        "level": 15,
-        "move": "METRONOME",
-        "type": "NORMAL"
-      },
-      {
-        "level": 18,
-        "move": "ENCORE",
-        "type": "NORMAL"
-      },
-      {
-        "level": 22,
-        "move": "LIGHT_SCREEN",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 22,
-        "move": "REFLECT",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 25,
-        "move": "PSYBEAM",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 29,
-        "move": "SUBSTITUTE",
-        "type": "NORMAL"
-      },
-      {
-        "level": 32,
-        "move": "CONFUSE_RAY",
-        "type": "GHOST"
-      },
-      {
-        "level": 36,
-        "move": "PSYBEAM",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 39,
-        "move": "PSYCHIC_M",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 43,
-        "move": "FUTURE_SIGHT",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 46,
-        "move": "BATON_PASS",
-        "type": "NORMAL"
-      },
-      {
-        "level": 50,
-        "move": "SAFEGUARD",
-        "type": "NORMAL"
-      }
-    ]
-  },
-  "144": {
-    "name": "MR__MIME",
-    "types": [
-      "PSYCHIC"
-    ],
-    "stats": {
-      "hp": 40,
-      "atk": 45,
-      "def": 65,
-      "spd": 90,
-      "satk": 100,
-      "sdef": 120,
-      "total": 460
-    },
-    "dex": {
-      "species": "BARRIER",
-      "height": 403,
-      "weight": 1200,
-      "text": "A skilled mime from birth, it gains the ability to create invisi- ble objects as it matures."
-    },
-    "evoline": [
-      143,
-      144
-    ],
-    "evos": [],
-    "moves": [
-      {
-        "level": 1,
-        "move": "BARRIER",
-        "type": "PSYCHIC"
-      },
-      {
-        "level": 1,
-        "move": "CONFUSION",
-        "type": "PSYCHIC"
       },
       {
         "level": 4,
@@ -12238,6 +12123,124 @@
     ]
   },
   "145": {
+    "name": "MR__MIME",
+    "types": [
+      "PSYCHIC"
+    ],
+    "stats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 65,
+      "spd": 90,
+      "satk": 100,
+      "sdef": 120,
+      "total": 460
+    },
+    "dex": {
+      "species": "BARRIER",
+      "height": 403,
+      "weight": 1200,
+      "text": "A skilled mime from birth, it gains the ability to create invisi- ble objects as it matures."
+    },
+    "evoline": [
+      144,
+      145
+    ],
+    "evos": [],
+    "moves": [
+      {
+        "level": 1,
+        "move": "BARRIER",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 1,
+        "move": "CONFUSION",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 4,
+        "move": "HYPNOSIS",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 8,
+        "move": "MEDITATE",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 11,
+        "move": "DOUBLESLAP",
+        "type": "NORMAL"
+      },
+      {
+        "level": 13,
+        "move": "PROTECT",
+        "type": "NORMAL"
+      },
+      {
+        "level": 15,
+        "move": "METRONOME",
+        "type": "NORMAL"
+      },
+      {
+        "level": 18,
+        "move": "ENCORE",
+        "type": "NORMAL"
+      },
+      {
+        "level": 22,
+        "move": "LIGHT_SCREEN",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 22,
+        "move": "REFLECT",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 25,
+        "move": "PSYBEAM",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 29,
+        "move": "SUBSTITUTE",
+        "type": "NORMAL"
+      },
+      {
+        "level": 32,
+        "move": "CONFUSE_RAY",
+        "type": "GHOST"
+      },
+      {
+        "level": 36,
+        "move": "PSYBEAM",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 39,
+        "move": "PSYCHIC_M",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 43,
+        "move": "FUTURE_SIGHT",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 46,
+        "move": "BATON_PASS",
+        "type": "NORMAL"
+      },
+      {
+        "level": 50,
+        "move": "SAFEGUARD",
+        "type": "NORMAL"
+      }
+    ]
+  },
+  "146": {
     "name": "FARFETCH_D",
     "types": [
       "NORMAL",
@@ -12259,21 +12262,21 @@
       "text": "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them."
     },
     "evoline": [
-      145,
       146,
-      147
+      147,
+      148
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "33",
-        "target": 146,
+        "target": 147,
         "target_name": "MADAME"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 147,
+        "target": 148,
         "target_name": "SIRFETCH_D"
       }
     ],
@@ -12340,7 +12343,7 @@
       }
     ]
   },
-  "146": {
+  "147": {
     "name": "MADAME",
     "types": [
       "NORMAL",
@@ -12362,9 +12365,9 @@
       "text": "A rarely seen strange breed. Research revealed that what it holds is the head of an onion stalk."
     },
     "evoline": [
-      145,
       146,
-      147
+      147,
+      148
     ],
     "evos": [],
     "moves": [
@@ -12425,7 +12428,7 @@
       }
     ]
   },
-  "147": {
+  "148": {
     "name": "SIRFETCH_D",
     "types": [
       "FIGHTING"
@@ -12446,9 +12449,9 @@
       "text": "A FARFETCH'D that wields a huge leek evolves into this form. It guards attacks using its leaf shield."
     },
     "evoline": [
-      145,
       146,
-      147
+      147,
+      148
     ],
     "evos": [],
     "moves": [
@@ -12514,7 +12517,7 @@
       }
     ]
   },
-  "148": {
+  "149": {
     "name": "BLOTTLE",
     "types": [
       "WATER",
@@ -12536,14 +12539,14 @@
       "text": "A descendant of the ancient OMANYTE. BLOTTLE shells are often collected and sold as souvenirs."
     },
     "evoline": [
-      148,
-      149
+      149,
+      150
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 149,
+        "target": 150,
         "target_name": "PENDRAKEN"
       }
     ],
@@ -12595,7 +12598,7 @@
       }
     ]
   },
-  "149": {
+  "150": {
     "name": "PENDRAKEN",
     "types": [
       "WATER",
@@ -12617,8 +12620,8 @@
       "text": "It often clashes with TENTACRUEL. It sprays ink in its foe's face, disorienting it before attacking."
     },
     "evoline": [
-      148,
-      149
+      149,
+      150
     ],
     "evos": [],
     "moves": [
@@ -12664,7 +12667,7 @@
       }
     ]
   },
-  "150": {
+  "151": {
     "name": "STARYU",
     "types": [
       "WATER"
@@ -12685,14 +12688,14 @@
       "text": "At night, the cen- ter of its body slowly flickers with the same rhythm as a human heartbeat."
     },
     "evoline": [
-      150,
-      151
+      151,
+      152
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "WATER_STONE",
-        "target": 151,
+        "target": 152,
         "target_name": "STARMIE"
       }
     ],
@@ -12769,7 +12772,7 @@
       }
     ]
   },
-  "151": {
+  "152": {
     "name": "STARMIE",
     "types": [
       "WATER",
@@ -12791,8 +12794,8 @@
       "text": "The center section of its body is called the core. It glows in a dif- ferent color each time it is seen."
     },
     "evoline": [
-      150,
-      151
+      151,
+      152
     ],
     "evos": [],
     "moves": [
@@ -12823,7 +12826,7 @@
       }
     ]
   },
-  "152": {
+  "153": {
     "name": "REMORAID",
     "types": [
       "WATER"
@@ -12844,14 +12847,14 @@
       "text": "It has superb ac- curacy. The water it shoots out can strike even moving prey from more than 300 feet."
     },
     "evoline": [
-      152,
-      153
+      153,
+      154
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "25",
-        "target": 153,
+        "target": 154,
         "target_name": "OCTILLERY"
       }
     ],
@@ -12908,7 +12911,7 @@
       }
     ]
   },
-  "153": {
+  "154": {
     "name": "OCTILLERY",
     "types": [
       "WATER"
@@ -12929,8 +12932,8 @@
       "text": "It traps enemies with its suction- cupped tentacles then smashes them with its rock-hard head."
     },
     "evoline": [
-      152,
-      153
+      153,
+      154
     ],
     "evos": [],
     "moves": [
@@ -12996,7 +12999,7 @@
       }
     ]
   },
-  "154": {
+  "155": {
     "name": "LICKITUNG",
     "types": [
       "NORMAL"
@@ -13017,21 +13020,21 @@
       "text": "Its tongue has well-developed nerves that run to the very tip, so it can be deft- ly manipulated."
     },
     "evoline": [
-      154,
       155,
-      156
+      156,
+      157
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "40",
-        "target": 155,
+        "target": 156,
         "target_name": "LICKILICKY"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "MOON_STONE",
-        "target": 156,
+        "target": 157,
         "target_name": "LICKILORD"
       }
     ],
@@ -13093,7 +13096,7 @@
       }
     ]
   },
-  "155": {
+  "156": {
     "name": "LICKILICKY",
     "types": [
       "NORMAL"
@@ -13114,93 +13117,9 @@
       "text": "In the Middle East merchants trap fleeing thieves by having LICKILORD unfurl its tongue along the ground."
     },
     "evoline": [
-      154,
       155,
-      156
-    ],
-    "evos": [],
-    "moves": [
-      {
-        "level": 1,
-        "move": "LICK",
-        "type": "GHOST"
-      },
-      {
-        "level": 6,
-        "move": "DEFENSE_CURL",
-        "type": "NORMAL"
-      },
-      {
-        "level": 10,
-        "move": "SUPERSONIC",
-        "type": "NORMAL"
-      },
-      {
-        "level": 15,
-        "move": "WRAP",
-        "type": "NORMAL"
-      },
-      {
-        "level": 19,
-        "move": "STOMP",
-        "type": "NORMAL"
-      },
-      {
-        "level": 24,
-        "move": "DISABLE",
-        "type": "NORMAL"
-      },
-      {
-        "level": 28,
-        "move": "SLAM",
-        "type": "NORMAL"
-      },
-      {
-        "level": 33,
-        "move": "ROLLOUT",
-        "type": "ROCK"
-      },
-      {
-        "level": 37,
-        "move": "SCREECH",
-        "type": "NORMAL"
-      },
-      {
-        "level": 42,
-        "move": "THRASH",
-        "type": "NORMAL"
-      },
-      {
-        "level": 46,
-        "move": "AMNESIA",
-        "type": "PSYCHIC"
-      }
-    ]
-  },
-  "156": {
-    "name": "LICKILORD",
-    "types": [
-      "NORMAL"
-    ],
-    "stats": {
-      "hp": 110,
-      "atk": 85,
-      "def": 95,
-      "spd": 50,
-      "satk": 80,
-      "sdef": 95,
-      "total": 515
-    },
-    "dex": {
-      "species": "LICK",
-      "height": 604,
-      "weight": 2800,
-      "text": "The oldest and most powerful of the licking lineage. Its tongue can reach far-off targets."
-    },
-    "evoline": [
-      154,
-      155,
-      156
+      156,
+      157
     ],
     "evos": [],
     "moves": [
@@ -13262,6 +13181,90 @@
     ]
   },
   "157": {
+    "name": "LICKILORD",
+    "types": [
+      "NORMAL"
+    ],
+    "stats": {
+      "hp": 110,
+      "atk": 85,
+      "def": 95,
+      "spd": 50,
+      "satk": 80,
+      "sdef": 95,
+      "total": 515
+    },
+    "dex": {
+      "species": "LICK",
+      "height": 604,
+      "weight": 2800,
+      "text": "The oldest and most powerful of the licking lineage. Its tongue can reach far-off targets."
+    },
+    "evoline": [
+      155,
+      156,
+      157
+    ],
+    "evos": [],
+    "moves": [
+      {
+        "level": 1,
+        "move": "LICK",
+        "type": "GHOST"
+      },
+      {
+        "level": 6,
+        "move": "DEFENSE_CURL",
+        "type": "NORMAL"
+      },
+      {
+        "level": 10,
+        "move": "SUPERSONIC",
+        "type": "NORMAL"
+      },
+      {
+        "level": 15,
+        "move": "WRAP",
+        "type": "NORMAL"
+      },
+      {
+        "level": 19,
+        "move": "STOMP",
+        "type": "NORMAL"
+      },
+      {
+        "level": 24,
+        "move": "DISABLE",
+        "type": "NORMAL"
+      },
+      {
+        "level": 28,
+        "move": "SLAM",
+        "type": "NORMAL"
+      },
+      {
+        "level": 33,
+        "move": "ROLLOUT",
+        "type": "ROCK"
+      },
+      {
+        "level": 37,
+        "move": "SCREECH",
+        "type": "NORMAL"
+      },
+      {
+        "level": 42,
+        "move": "THRASH",
+        "type": "NORMAL"
+      },
+      {
+        "level": 46,
+        "move": "AMNESIA",
+        "type": "PSYCHIC"
+      }
+    ]
+  },
+  "158": {
     "name": "TANGTRIP",
     "types": [
       "GRASS"
@@ -13282,16 +13285,16 @@
       "text": "Its body consists mostly of vines that wrap tightly around anything they touch. It loves moist soil."
     },
     "evoline": [
-      157,
       158,
       159,
-      160
+      160,
+      161
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "15",
-        "target": 158,
+        "target": 159,
         "target_name": "TANGELA"
       }
     ],
@@ -13358,7 +13361,7 @@
       }
     ]
   },
-  "158": {
+  "159": {
     "name": "TANGELA",
     "types": [
       "GRASS"
@@ -13379,22 +13382,22 @@
       "text": "The vines that cloak its entire body are always jiggling. They effectively un- nerve its foes."
     },
     "evoline": [
-      157,
       158,
       159,
-      160
+      160,
+      161
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "40",
-        "target": 159,
+        "target": 160,
         "target_name": "GELANIA"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "LEAF_STONE",
-        "target": 160,
+        "target": 161,
         "target_name": "TANGROWTH"
       }
     ],
@@ -13461,7 +13464,7 @@
       }
     ]
   },
-  "159": {
+  "160": {
     "name": "GELANIA",
     "types": [
       "GRASS"
@@ -13482,10 +13485,10 @@
       "text": "Floats silently in calm tropical seas. Sailors mistake it for seaweed until it suddenly lashes out with its arms."
     },
     "evoline": [
-      157,
       158,
       159,
-      160
+      160,
+      161
     ],
     "evos": [],
     "moves": [
@@ -13551,7 +13554,7 @@
       }
     ]
   },
-  "160": {
+  "161": {
     "name": "TANGROWTH",
     "types": [
       "GRASS"
@@ -13572,10 +13575,10 @@
       "text": "Its self styled vines are a great source of pride. It will even style TANGTRIP & TANGELA vines for them."
     },
     "evoline": [
-      157,
       158,
       159,
-      160
+      160,
+      161
     ],
     "evos": [],
     "moves": [
@@ -13641,7 +13644,7 @@
       }
     ]
   },
-  "161": {
+  "162": {
     "name": "EEVEE",
     "types": [
       "NORMAL"
@@ -13662,7 +13665,6 @@
       "text": "It has the ability to alter the com- position of its body to suit its surrounding envi- ronment."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -13670,55 +13672,56 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "THUNDERSTONE",
-        "target": 163,
+        "target": 164,
         "target_name": "JOLTEON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "WATER_STONE",
-        "target": 162,
+        "target": 163,
         "target_name": "VAPOREON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "FIRE_STONE",
-        "target": 164,
+        "target": 165,
         "target_name": "FLAREON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 165,
+        "target": 166,
         "target_name": "ESPEON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "POISON_STONE",
-        "target": 166,
+        "target": 167,
         "target_name": "UMBREON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "LEAF_STONE",
-        "target": 167,
+        "target": 168,
         "target_name": "LEAFEON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "ICE_STONE",
-        "target": 168,
+        "target": 169,
         "target_name": "GLACEON"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "MOON_STONE",
-        "target": 169,
+        "target": 170,
         "target_name": "SYLVEON"
       }
     ],
@@ -13780,7 +13783,7 @@
       }
     ]
   },
-  "162": {
+  "163": {
     "name": "VAPOREON",
     "types": [
       "WATER"
@@ -13801,7 +13804,6 @@
       "text": "When VAPOREON's fins begin to vi- brate, it is a sign that rain will come within a few hours."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -13809,7 +13811,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -13870,7 +13873,7 @@
       }
     ]
   },
-  "163": {
+  "164": {
     "name": "JOLTEON",
     "types": [
       "ELECTRIC"
@@ -13891,7 +13894,6 @@
       "text": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -13899,7 +13901,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -13960,7 +13963,7 @@
       }
     ]
   },
-  "164": {
+  "165": {
     "name": "FLAREON",
     "types": [
       "FIRE"
@@ -13981,7 +13984,6 @@
       "text": "It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -13989,7 +13991,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14050,7 +14053,7 @@
       }
     ]
   },
-  "165": {
+  "166": {
     "name": "ESPEON",
     "types": [
       "PSYCHIC"
@@ -14071,7 +14074,6 @@
       "text": "It uses the fine hair that covers its body to sense air currents and predict its ene- my's actions."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -14079,7 +14081,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14160,7 +14163,7 @@
       }
     ]
   },
-  "166": {
+  "167": {
     "name": "UMBREON",
     "types": [
       "POISON"
@@ -14181,7 +14184,6 @@
       "text": "When agitated, this #MON pro- tects itself by spraying poisonous sweat from its pores."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -14189,7 +14191,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14250,7 +14253,7 @@
       }
     ]
   },
-  "167": {
+  "168": {
     "name": "LEAFEON",
     "types": [
       "GRASS"
@@ -14271,7 +14274,6 @@
       "text": "The root tips at the ends of its legs extend down into the ground to absorb nutrients. Loves to sunbathe."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -14279,7 +14281,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14340,7 +14343,7 @@
       }
     ]
   },
-  "168": {
+  "169": {
     "name": "GLACEON",
     "types": [
       "ICE"
@@ -14361,7 +14364,6 @@
       "text": "It causes small ice crystals to form by lowering the temperature of the surrounding atmosphere."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -14369,7 +14371,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14430,7 +14433,7 @@
       }
     ]
   },
-  "169": {
+  "170": {
     "name": "SYLVEON",
     "types": [
       "NORMAL"
@@ -14451,7 +14454,6 @@
       "text": "It wraps its ribbonlike feelers around the arm of its beloved train- er and walks with them."
     },
     "evoline": [
-      161,
       162,
       163,
       164,
@@ -14459,7 +14461,8 @@
       166,
       167,
       168,
-      169
+      169,
+      170
     ],
     "evos": [],
     "moves": [
@@ -14540,7 +14543,7 @@
       }
     ]
   },
-  "170": {
+  "171": {
     "name": "HORSEA",
     "types": [
       "WATER"
@@ -14561,15 +14564,15 @@
       "text": "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin."
     },
     "evoline": [
-      170,
       171,
-      172
+      172,
+      173
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "32",
-        "target": 171,
+        "target": 172,
         "target_name": "SEADRA"
       }
     ],
@@ -14636,7 +14639,7 @@
       }
     ]
   },
-  "171": {
+  "172": {
     "name": "SEADRA",
     "types": [
       "WATER"
@@ -14657,21 +14660,21 @@
       "text": "An examination of its cells revealed the presence of a gene not found in HORSEA. It became a hot topic."
     },
     "evoline": [
-      170,
       171,
-      172
+      172,
+      173
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "DRAGON_SCALE",
-        "target": 172,
+        "target": 173,
         "target_name": "KINGDRA"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "DRAGON_SCALE",
-        "target": 172,
+        "target": 173,
         "target_name": "KINGDRA"
       }
     ],
@@ -14738,7 +14741,7 @@
       }
     ]
   },
-  "172": {
+  "173": {
     "name": "KINGDRA",
     "types": [
       "WATER",
@@ -14760,9 +14763,9 @@
       "text": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning."
     },
     "evoline": [
-      170,
       171,
-      172
+      172,
+      173
     ],
     "evos": [],
     "moves": [
@@ -14828,7 +14831,7 @@
       }
     ]
   },
-  "173": {
+  "174": {
     "name": "DELIBIRD",
     "types": [
       "WATER",
@@ -14850,7 +14853,7 @@
       "text": "It carries food all day long. There are tales about lost people who were saved by the food it had."
     },
     "evoline": [
-      173
+      174
     ],
     "evos": [],
     "moves": [
@@ -14916,7 +14919,7 @@
       }
     ]
   },
-  "174": {
+  "175": {
     "name": "KURSTRAW",
     "types": [
       "GHOST"
@@ -14937,14 +14940,14 @@
       "text": "A peculiar bird that nests in old scarecrows. It collects shiny objects to decorate its nesting place."
     },
     "evoline": [
-      174,
-      175
+      175,
+      176
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "29",
-        "target": 175,
+        "target": 176,
         "target_name": "PANGSHI"
       }
     ],
@@ -15021,7 +15024,7 @@
       }
     ]
   },
-  "175": {
+  "176": {
     "name": "PANGSHI",
     "types": [
       "GHOST"
@@ -15042,8 +15045,8 @@
       "text": "It rolls into a ball when threatened, protecting itself with its hard scale-covered body. Hard to uncurl."
     },
     "evoline": [
-      174,
-      175
+      175,
+      176
     ],
     "evos": [],
     "moves": [
@@ -15124,7 +15127,7 @@
       }
     ]
   },
-  "176": {
+  "177": {
     "name": "QWILFISH",
     "types": [
       "WATER"
@@ -15145,14 +15148,14 @@
       "text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
     },
     "evoline": [
-      176,
-      177
+      177,
+      178
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 177,
+        "target": 178,
         "target_name": "NUMBPUFF"
       }
     ],
@@ -15219,7 +15222,7 @@
       }
     ]
   },
-  "177": {
+  "178": {
     "name": "NUMBPUFF",
     "types": [
       "WATER",
@@ -15241,8 +15244,8 @@
       "text": "The long spines on its body can project electric waves through the water, paralyzing nearby prey."
     },
     "evoline": [
-      176,
-      177
+      177,
+      178
     ],
     "evos": [],
     "moves": [
@@ -15313,7 +15316,7 @@
       }
     ]
   },
-  "178": {
+  "179": {
     "name": "RAYLEEP",
     "types": [
       "WATER",
@@ -15335,7 +15338,7 @@
       "text": "As it majestically swims, it doesn't care if REMORAID attach to it for scavenging its leftovers."
     },
     "evoline": [
-      178
+      179
     ],
     "evos": [],
     "moves": [
@@ -15396,7 +15399,7 @@
       }
     ]
   },
-  "179": {
+  "180": {
     "name": "CHIX",
     "types": [
       "NORMAL",
@@ -15418,15 +15421,15 @@
       "text": "The two better fed heads become DODUO while the other is withdrawn. It ends up as the angriest head of DODRIO."
     },
     "evoline": [
-      179,
       180,
-      181
+      181,
+      182
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "18",
-        "target": 180,
+        "target": 181,
         "target_name": "DODUO"
       }
     ],
@@ -15488,7 +15491,7 @@
       }
     ]
   },
-  "180": {
+  "181": {
     "name": "DODUO",
     "types": [
       "NORMAL",
@@ -15510,15 +15513,15 @@
       "text": "By alternately raising and lower- ing its two heads, it balances itself to be more stable while running."
     },
     "evoline": [
-      179,
       180,
-      181
+      181,
+      182
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "31",
-        "target": 181,
+        "target": 182,
         "target_name": "DODRIO"
       }
     ],
@@ -15580,7 +15583,7 @@
       }
     ]
   },
-  "181": {
+  "182": {
     "name": "DODRIO",
     "types": [
       "NORMAL",
@@ -15602,9 +15605,9 @@
       "text": "It collects data  and plans three times as wisely, but it may think too much and be- come immobilized."
     },
     "evoline": [
-      179,
       180,
-      181
+      181,
+      182
     ],
     "evos": [],
     "moves": [
@@ -15670,7 +15673,7 @@
       }
     ]
   },
-  "182": {
+  "183": {
     "name": "PETICORN",
     "types": [
       "FIRE"
@@ -15691,15 +15694,15 @@
       "text": "A young PONYTA that has not yet learned to control its own flames. Its mane flickers while it sleeps."
     },
     "evoline": [
-      182,
       183,
-      184
+      184,
+      185
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "28",
-        "target": 183,
+        "target": 184,
         "target_name": "PONYTA"
       }
     ],
@@ -15756,7 +15759,7 @@
       }
     ]
   },
-  "183": {
+  "184": {
     "name": "PONYTA",
     "types": [
       "FIRE"
@@ -15777,15 +15780,15 @@
       "text": "It is a weak run- ner immediately after birth. It gradually becomes faster by chasing after its parents."
     },
     "evoline": [
-      182,
       183,
-      184
+      184,
+      185
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "40",
-        "target": 184,
+        "target": 185,
         "target_name": "RAPIDASH"
       }
     ],
@@ -15842,7 +15845,7 @@
       }
     ]
   },
-  "184": {
+  "185": {
     "name": "RAPIDASH",
     "types": [
       "FIRE"
@@ -15863,9 +15866,9 @@
       "text": "At full gallop, its four hooves barely touch the ground because it moves so incredi- bly fast."
     },
     "evoline": [
-      182,
       183,
-      184
+      184,
+      185
     ],
     "evos": [],
     "moves": [
@@ -15931,7 +15934,7 @@
       }
     ]
   },
-  "185": {
+  "186": {
     "name": "CUBONE",
     "types": [
       "GROUND"
@@ -15952,15 +15955,15 @@
       "text": "If it is sad or lonely, the skull it wears shakes, and emits a plain- tive and mournful sound."
     },
     "evoline": [
-      185,
       186,
-      187
+      187,
+      188
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "28",
-        "target": 186,
+        "target": 187,
         "target_name": "MAROWAK"
       }
     ],
@@ -16027,7 +16030,7 @@
       }
     ]
   },
-  "186": {
+  "187": {
     "name": "MAROWAK",
     "types": [
       "GROUND"
@@ -16048,15 +16051,15 @@
       "text": "It has been seen pounding boulders with the bone it carries in order to tap out mes- sages to others."
     },
     "evoline": [
-      185,
       186,
-      187
+      187,
+      188
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "40",
-        "target": 187,
+        "target": 188,
         "target_name": "GUARDIA"
       }
     ],
@@ -16123,7 +16126,7 @@
       }
     ]
   },
-  "187": {
+  "188": {
     "name": "GUARDIA",
     "types": [
       "GROUND",
@@ -16145,9 +16148,9 @@
       "text": "A caring #MON that adopts orphaned CUBONE and raises them until they're ready to evolve."
     },
     "evoline": [
-      185,
       186,
-      187
+      187,
+      188
     ],
     "evos": [],
     "moves": [
@@ -16208,7 +16211,7 @@
       }
     ]
   },
-  "188": {
+  "189": {
     "name": "MURKROW",
     "types": [
       "DARK",
@@ -16230,14 +16233,14 @@
       "text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
     },
     "evoline": [
-      188,
-      189
+      189,
+      190
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 189,
+        "target": 190,
         "target_name": "HONCHKROW"
       }
     ],
@@ -16294,7 +16297,7 @@
       }
     ]
   },
-  "189": {
+  "190": {
     "name": "HONCHKROW",
     "types": [
       "DARK",
@@ -16316,8 +16319,8 @@
       "text": "It is merciless by nature. It is said that if one calls out, hundreds of MURKROW will appear that night."
     },
     "evoline": [
-      188,
-      189
+      189,
+      190
     ],
     "evos": [],
     "moves": [
@@ -16373,7 +16376,7 @@
       }
     ]
   },
-  "190": {
+  "191": {
     "name": "WOLFAN",
     "types": [
       "ICE"
@@ -16394,14 +16397,14 @@
       "text": "It doesn't have its own fur, its cloak is made of the stitched hide of other #MON that it hunts."
     },
     "evoline": [
-      190,
-      191
+      191,
+      192
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "31",
-        "target": 191,
+        "target": 192,
         "target_name": "WARWOLF"
       }
     ],
@@ -16473,7 +16476,7 @@
       }
     ]
   },
-  "191": {
+  "192": {
     "name": "WARWOLF",
     "types": [
       "ICE"
@@ -16494,8 +16497,8 @@
       "text": "A pack leader that howls to call its allies from afar. Its howl echoes for many miles in quiet mountain air."
     },
     "evoline": [
-      190,
-      191
+      191,
+      192
     ],
     "evos": [],
     "moves": [
@@ -16571,7 +16574,7 @@
       }
     ]
   },
-  "192": {
+  "193": {
     "name": "SNEASEL",
     "types": [
       "DARK",
@@ -16593,23 +16596,23 @@
       "text": "Its paws conceal sharp claws. If attacked, it sud- denly extends the claws and startles its enemy."
     },
     "evoline": [
-      192,
       193,
-      197,
-      199,
-      201
+      194,
+      198,
+      200,
+      202
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "ICE_STONE",
-        "target": 193,
+        "target": 194,
         "target_name": "WEAVILE"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "POISON_STONE",
-        "target": 197,
+        "target": 198,
         "target_name": "PORYGON"
       }
     ],
@@ -16671,7 +16674,7 @@
       }
     ]
   },
-  "193": {
+  "194": {
     "name": "WEAVILE",
     "types": [
       "DARK",
@@ -16693,11 +16696,11 @@
       "text": "They live in cold regions, forming groups of four or five that work as one. They mark trees with claws."
     },
     "evoline": [
-      192,
       193,
-      197,
-      199,
-      201
+      194,
+      198,
+      200,
+      202
     ],
     "evos": [],
     "moves": [
@@ -16758,7 +16761,7 @@
       }
     ]
   },
-  "194": {
+  "195": {
     "name": "GEODACTYL",
     "types": [
       "ROCK"
@@ -16783,12 +16786,12 @@
         "method": "EVOLVE_LEVEL",
         "param": "40",
         "target_name": "AERODACTYL",
-        "target": 195
+        "target": 196
       }
     ],
     "evoline": [
-      194,
-      195
+      195,
+      196
     ],
     "moves": [
       {
@@ -16833,7 +16836,7 @@
       }
     ]
   },
-  "195": {
+  "196": {
     "name": "AERODACTYL",
     "types": [
       "ROCK",
@@ -16856,8 +16859,8 @@
     },
     "evos": [],
     "evoline": [
-      194,
-      195
+      195,
+      196
     ],
     "moves": [
       {
@@ -16912,7 +16915,7 @@
       }
     ]
   },
-  "196": {
+  "197": {
     "name": "PTEROFOSS",
     "types": [
       "GHOST",
@@ -16935,7 +16938,7 @@
     },
     "evos": [],
     "evoline": [
-      196
+      197
     ],
     "moves": [
       {
@@ -16995,7 +16998,7 @@
       }
     ]
   },
-  "197": {
+  "198": {
     "name": "PORYGON",
     "types": [
       "NORMAL"
@@ -17016,29 +17019,29 @@
       "text": "It is a manmade #MON. Since it doesn't breathe, people are eager to try it in any environment."
     },
     "evoline": [
-      197,
-      199,
-      192,
-      201,
-      193
+      198,
+      200,
+      193,
+      202,
+      194
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 199,
+        "target": 200,
         "target_name": "PORYGON2"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "UP_GRADE",
-        "target": 192,
+        "target": 193,
         "target_name": "SNEASEL"
       },
       {
         "method": "EVOLVE_ITEM",
         "param": "UP_GRADE",
-        "target": 192,
+        "target": 193,
         "target_name": "SNEASEL"
       }
     ],
@@ -17100,7 +17103,7 @@
       }
     ]
   },
-  "198": {
+  "199": {
     "name": "BETAGON",
     "types": [
       "NORMAL"
@@ -17121,7 +17124,7 @@
       "text": "A prototype before PORYGON. Its data is unstable and flickers between digital and analog states randomly."
     },
     "evoline": [
-      198
+      199
     ],
     "evos": [],
     "moves": [
@@ -17182,7 +17185,7 @@
       }
     ]
   },
-  "199": {
+  "200": {
     "name": "PORYGON2",
     "types": [
       "NORMAL"
@@ -17203,17 +17206,17 @@
       "text": "This upgraded version of PORYGON is designed for space exploration. It can't fly, though."
     },
     "evoline": [
-      197,
-      199,
-      192,
-      201,
-      193
+      198,
+      200,
+      193,
+      202,
+      194
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 201,
+        "target": 202,
         "target_name": "HAPPINY"
       }
     ],
@@ -17275,7 +17278,7 @@
       }
     ]
   },
-  "200": {
+  "201": {
     "name": "PORYGON-Z",
     "types": [
       "NORMAL"
@@ -17296,7 +17299,7 @@
       "text": "Additional software was installed to make it a better Pokemon. It began acting oddly, however."
     },
     "evoline": [
-      200
+      201
     ],
     "evos": [],
     "moves": [
@@ -17357,7 +17360,7 @@
       }
     ]
   },
-  "201": {
+  "202": {
     "name": "HAPPINY",
     "types": [
       "NORMAL"
@@ -17419,14 +17422,14 @@
       "text": "It carries a roundish white stone in its pouch."
     },
     "evoline": [
-      197,
-      199,
-      192,
-      201,
-      193
+      198,
+      200,
+      193,
+      202,
+      194
     ]
   },
-  "202": {
+  "203": {
     "name": "CHANSEY",
     "types": [
       "NORMAL"
@@ -17447,14 +17450,14 @@
       "text": "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
     },
     "evoline": [
-      202,
-      203
+      203,
+      204
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "34",
-        "target": 203,
+        "target": 204,
         "target_name": "BLISSEY"
       }
     ],
@@ -17516,7 +17519,7 @@
       }
     ]
   },
-  "203": {
+  "204": {
     "name": "BLISSEY",
     "types": [
       "NORMAL"
@@ -17537,8 +17540,8 @@
       "text": "Anyone who takes even one bite of BLISSEY's egg be- comes unfailingly caring and pleas- ant to everyone."
     },
     "evoline": [
-      202,
-      203
+      203,
+      204
     ],
     "evos": [],
     "moves": [
@@ -17599,7 +17602,7 @@
       }
     ]
   },
-  "204": {
+  "205": {
     "name": "CHEEP",
     "types": [
       "WATER"
@@ -17620,14 +17623,14 @@
       "text": "It can be seen leaping out of the water and quickly flapping its fins in an attempt to fly."
     },
     "evoline": [
-      204,
-      205
+      205,
+      206
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "18",
-        "target": 205,
+        "target": 206,
         "target_name": "JABETTA"
       }
     ],
@@ -17659,7 +17662,7 @@
       }
     ]
   },
-  "205": {
+  "206": {
     "name": "JABETTA",
     "types": [
       "WATER",
@@ -17681,8 +17684,8 @@
       "text": "Ill-tempered and feisty, it often picks fights with other JABETTA to compete for food and territory."
     },
     "evoline": [
-      204,
-      205
+      205,
+      206
     ],
     "evos": [],
     "moves": [
@@ -17723,7 +17726,7 @@
       }
     ]
   },
-  "206": {
+  "207": {
     "name": "RIBBITO",
     "types": [
       "WATER"
@@ -17744,14 +17747,14 @@
       "text": "Despite its small size, it likes to challenge others. It puffs up its chest to appear larger."
     },
     "evoline": [
-      206,
-      207
+      207,
+      208
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 207,
+        "target": 208,
         "target_name": "CROAKOZUNA"
       }
     ],
@@ -17803,7 +17806,7 @@
       }
     ]
   },
-  "207": {
+  "208": {
     "name": "CROAKOZUNA",
     "types": [
       "WATER",
@@ -17825,8 +17828,8 @@
       "text": "It intimidates foes by puffing up and stomping. Then, it strikes with a flurry of strong slaps."
     },
     "evoline": [
-      206,
-      207
+      207,
+      208
     ],
     "evos": [],
     "moves": [
@@ -17872,7 +17875,7 @@
       }
     ]
   },
-  "208": {
+  "209": {
     "name": "SQUIRTLE",
     "types": [
       "WATER"
@@ -17893,15 +17896,15 @@
       "text": "The shell is soft when it is born. It soon becomes so resilient, prod- ding fingers will bounce off it."
     },
     "evoline": [
-      208,
       209,
-      210
+      210,
+      211
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "16",
-        "target": 209,
+        "target": 210,
         "target_name": "WARTORTLE"
       }
     ],
@@ -17968,7 +17971,7 @@
       }
     ]
   },
-  "209": {
+  "210": {
     "name": "WARTORTLE",
     "types": [
       "WATER"
@@ -17989,15 +17992,15 @@
       "text": "It is recognized as a symbol of longevity. If its shell has algae on it, that WARTORTLE is very old."
     },
     "evoline": [
-      208,
       209,
-      210
+      210,
+      211
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "36",
-        "target": 210,
+        "target": 211,
         "target_name": "TOTARTLE"
       }
     ],
@@ -18064,7 +18067,7 @@
       }
     ]
   },
-  "210": {
+  "211": {
     "name": "TOTARTLE",
     "types": [
       "WATER"
@@ -18085,9 +18088,9 @@
       "text": "Capable of living for 10,000 years. TOTARTLE's shell becomes slowly covered in algae as it ages."
     },
     "evoline": [
-      208,
       209,
-      210
+      210,
+      211
     ],
     "evos": [],
     "moves": [
@@ -18128,7 +18131,7 @@
       }
     ]
   },
-  "211": {
+  "212": {
     "name": "NOIBAT",
     "types": [
       "FLYING",
@@ -18154,12 +18157,12 @@
         "method": "EVOLVE_LEVEL",
         "param": "48",
         "target_name": "NOIVERN",
-        "target": 212
+        "target": 213
       }
     ],
     "evoline": [
-      211,
-      212
+      212,
+      213
     ],
     "moves": [
       {
@@ -18229,7 +18232,7 @@
       }
     ]
   },
-  "212": {
+  "213": {
     "name": "NOIVERN",
     "types": [
       "FLYING",
@@ -18252,8 +18255,8 @@
     },
     "evos": [],
     "evoline": [
-      211,
-      212
+      212,
+      213
     ],
     "moves": [
       {
@@ -18328,7 +18331,7 @@
       }
     ]
   },
-  "213": {
+  "214": {
     "name": "BLASTYKE",
     "types": [
       "WATER",
@@ -18350,14 +18353,14 @@
       "text": "It spews bubbles from the ports on its shell. This #MON and SQUIRTLE are related species."
     },
     "evoline": [
-      213,
-      214
+      214,
+      215
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "36",
-        "target": 214,
+        "target": 215,
         "target_name": "BLASTOISE"
       }
     ],
@@ -18399,7 +18402,7 @@
       }
     ]
   },
-  "214": {
+  "215": {
     "name": "BLASTOISE",
     "types": [
       "WATER"
@@ -18420,8 +18423,8 @@
       "text": "It deliberately makes itself heavy so it can with- stand the recoil of the water jets it fires."
     },
     "evoline": [
-      213,
-      214
+      214,
+      215
     ],
     "evos": [],
     "moves": [
@@ -18487,7 +18490,7 @@
       }
     ]
   },
-  "215": {
+  "216": {
     "name": "GAVILLAIN",
     "types": [
       "DRAGON",
@@ -18509,7 +18512,7 @@
       "text": "Its huge eyes can glow to brighten its surroundings. Those who gaze at them for too long become immobile."
     },
     "evoline": [
-      215
+      216
     ],
     "evos": [],
     "moves": [
@@ -18555,7 +18558,7 @@
       }
     ]
   },
-  "216": {
+  "217": {
     "name": "BALUMBA",
     "types": [
       "NORMAL",
@@ -18577,7 +18580,7 @@
       "text": "Often mistaken for an ordinary balloon. If its tail is grabbed, it will let out a shrill screech."
     },
     "evoline": [
-      216
+      217
     ],
     "evos": [],
     "moves": [
@@ -18613,7 +18616,7 @@
       }
     ]
   },
-  "217": {
+  "218": {
     "name": "ANCHORAGE",
     "types": [
       "WATER",
@@ -18635,14 +18638,14 @@
       "text": "In the deep sea it's unencumbered by the heavy anchor on its rear. The anchor is made of iron."
     },
     "evoline": [
-      217,
-      218
+      218,
+      219
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "35",
-        "target": 218,
+        "target": 219,
         "target_name": "SHARPOON"
       }
     ],
@@ -18714,7 +18717,7 @@
       }
     ]
   },
-  "218": {
+  "219": {
     "name": "SHARPOON",
     "types": [
       "WATER",
@@ -18736,8 +18739,8 @@
       "text": "Also known as the Sailor's Scourge, SHARPOON rams its proud horn into the hulls of approaching ships."
     },
     "evoline": [
-      217,
-      218
+      218,
+      219
     ],
     "evos": [],
     "moves": [
@@ -18793,7 +18796,7 @@
       }
     ]
   },
-  "219": {
+  "220": {
     "name": "RAMOOSE",
     "types": [
       "NORMAL",
@@ -18815,7 +18818,7 @@
       "text": "It wildly swings its huge antlers to deter threats. However, these antlers are highly prized by hunters."
     },
     "evoline": [
-      219
+      220
     ],
     "evos": [],
     "moves": [
@@ -18861,7 +18864,7 @@
       }
     ]
   },
-  "220": {
+  "221": {
     "name": "TRAMPEL",
     "types": [
       "NORMAL",
@@ -18883,7 +18886,7 @@
       "text": "This rare species is very well-known in India. It has a bulky physique, but it's adept at using its trunk."
     },
     "evoline": [
-      220
+      221
     ],
     "evos": [],
     "moves": [
@@ -18929,7 +18932,7 @@
       }
     ]
   },
-  "221": {
+  "222": {
     "name": "GORILLAIMO",
     "types": [
       "NORMAL",
@@ -18951,7 +18954,7 @@
       "text": "Intelligent enough to craft items of clothing. Ancient scripture shows a giant GORILLAIMO battling GAWARHED."
     },
     "evoline": [
-      221
+      222
     ],
     "evos": [],
     "moves": [
@@ -18997,7 +19000,7 @@
       }
     ]
   },
-  "222": {
+  "223": {
     "name": "CACTORMUS",
     "types": [
       "GRASS",
@@ -19019,7 +19022,7 @@
       "text": "Found in arid regions. Its legs are adapted for maneuverability on sandy and rocky terrain."
     },
     "evoline": [
-      222
+      223
     ],
     "evos": [],
     "moves": [
@@ -19070,7 +19073,7 @@
       }
     ]
   },
-  "223": {
+  "224": {
     "name": "BUU",
     "types": [
       "ICE"
@@ -19091,7 +19094,7 @@
       "text": "Long thought to be an urban myth until one was found hiding in a secluded cave in the tundra."
     },
     "evoline": [
-      223
+      224
     ],
     "evos": [],
     "moves": [
@@ -19137,7 +19140,7 @@
       }
     ]
   },
-  "224": {
+  "225": {
     "name": "OMEGADGE",
     "types": [
       "STEEL"
@@ -19158,7 +19161,7 @@
       "text": "Modeled after the extinct GAWARHED, this recent SILPH invention is said to pack truly devastating power."
     },
     "evoline": [
-      224
+      225
     ],
     "evos": [],
     "moves": [
@@ -19214,7 +19217,7 @@
       }
     ]
   },
-  "225": {
+  "226": {
     "name": "SQUEAMATA",
     "types": [
       "DRAGON"
@@ -19235,15 +19238,15 @@
       "text": "Incredibly timid, it flees at the smallest sign of danger. Gaining its trust is a difficult task."
     },
     "evoline": [
-      225,
       226,
-      227
+      227,
+      228
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "30",
-        "target": 226,
+        "target": 227,
         "target_name": "MINISTARE"
       }
     ],
@@ -19295,7 +19298,7 @@
       }
     ]
   },
-  "226": {
+  "227": {
     "name": "MINISTARE",
     "types": [
       "DRAGON"
@@ -19316,15 +19319,15 @@
       "text": "Often climbs atop branches to feast on foliage. When under attack, it stuns foes with an unnerving GLARE."
     },
     "evoline": [
-      225,
       226,
-      227
+      227,
+      228
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "55",
-        "target": 227,
+        "target": 228,
         "target_name": "IGUANARCH"
       }
     ],
@@ -19366,7 +19369,7 @@
       }
     ]
   },
-  "227": {
+  "228": {
     "name": "IGUANARCH",
     "types": [
       "DRAGON"
@@ -19387,9 +19390,9 @@
       "text": "Highly aggressive, it drives other #MON away with its strong tail before finishing them with SLASH."
     },
     "evoline": [
-      225,
       226,
-      227
+      227,
+      228
     ],
     "evos": [],
     "moves": [
@@ -19435,7 +19438,7 @@
       }
     ]
   },
-  "228": {
+  "229": {
     "name": "DECILLA",
     "types": [
       "ROCK"
@@ -19456,14 +19459,14 @@
       "text": "Its DNA was found preserved within amber. It was a cowardly #MON, often crying for its parents."
     },
     "evoline": [
-      228,
-      229
+      229,
+      230
     ],
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
         "param": "40",
-        "target": 229,
+        "target": 230,
         "target_name": "GAWARHED"
       }
     ],
@@ -19525,7 +19528,7 @@
       }
     ]
   },
-  "229": {
+  "230": {
     "name": "GAWARHED",
     "types": [
       "ROCK"
@@ -19546,8 +19549,8 @@
       "text": "Very dangerous and frequently rampaged wildly. Its jaws could even demolish huge boulders."
     },
     "evoline": [
-      228,
-      229
+      229,
+      230
     ],
     "evos": [],
     "moves": [
@@ -19598,7 +19601,7 @@
       }
     ]
   },
-  "230": {
+  "231": {
     "name": "ARTICUNO",
     "types": [
       "ICE",
@@ -19620,7 +19623,7 @@
       "text": "The magnificent, seemingly translu- cent wings of this legendary bird #MON are said to be made of ice."
     },
     "evoline": [
-      230
+      231
     ],
     "evos": [],
     "moves": [
@@ -19686,7 +19689,7 @@
       }
     ]
   },
-  "231": {
+  "232": {
     "name": "ZAPDOS",
     "types": [
       "ELECTRIC",
@@ -19708,7 +19711,7 @@
       "text": "This legendary bird #MON causes savage thunderstorms by flapping its glit- tering wings."
     },
     "evoline": [
-      231
+      232
     ],
     "evos": [],
     "moves": [
@@ -19774,7 +19777,7 @@
       }
     ]
   },
-  "232": {
+  "233": {
     "name": "MOLTRES",
     "types": [
       "FIRE",
@@ -19796,7 +19799,7 @@
       "text": "This legendary #MON scatters embers with every flap of its wings. It is a thrilling sight to behold."
     },
     "evoline": [
-      232
+      233
     ],
     "evos": [],
     "moves": [
@@ -19862,7 +19865,7 @@
       }
     ]
   },
-  "233": {
+  "234": {
     "name": "RAIKOU",
     "types": [
       "ELECTRIC"
@@ -19883,7 +19886,7 @@
       "text": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
     },
     "evoline": [
-      233
+      234
     ],
     "evos": [],
     "moves": [
@@ -19954,7 +19957,7 @@
       }
     ]
   },
-  "234": {
+  "235": {
     "name": "ENTEI",
     "types": [
       "FIRE"
@@ -19975,7 +19978,7 @@
       "text": "Volcanoes erupt when it barks. Un- able to restrain its extreme power, it races headlong around the land."
     },
     "evoline": [
-      234
+      235
     ],
     "evos": [],
     "moves": [
@@ -20046,7 +20049,7 @@
       }
     ]
   },
-  "235": {
+  "236": {
     "name": "SUICUNE",
     "types": [
       "WATER"
@@ -20067,7 +20070,7 @@
       "text": "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water."
     },
     "evoline": [
-      235
+      236
     ],
     "evos": [],
     "moves": [
@@ -20138,7 +20141,7 @@
       }
     ]
   },
-  "236": {
+  "237": {
     "name": "LUGIA",
     "types": [
       "PSYCHIC",
@@ -20160,7 +20163,7 @@
       "text": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
     },
     "evoline": [
-      236
+      237
     ],
     "evos": [],
     "moves": [
@@ -20231,7 +20234,7 @@
       }
     ]
   },
-  "237": {
+  "238": {
     "name": "HO_OH",
     "types": [
       "FIRE",
@@ -20253,7 +20256,7 @@
       "text": "Legends claim this #MON flies the world's skies con- tinuously on its magnificent seven- colored wings."
     },
     "evoline": [
-      237
+      238
     ],
     "evos": [],
     "moves": [
@@ -20324,7 +20327,7 @@
       }
     ]
   },
-  "238": {
+  "239": {
     "name": "MEWTWO",
     "types": [
       "PSYCHIC"
@@ -20345,7 +20348,7 @@
       "text": "Because its battle abilities were raised to the ultimate level, it thinks only of de- feating its foes."
     },
     "evoline": [
-      238
+      239
     ],
     "evos": [],
     "moves": [
@@ -20406,7 +20409,7 @@
       }
     ]
   },
-  "239": {
+  "240": {
     "name": "MEW",
     "types": [
       "PSYCHIC"
@@ -20427,7 +20430,7 @@
       "text": "Apparently, it appears only to those people who are pure of heart and have a strong desire to see it."
     },
     "evoline": [
-      239
+      240
     ],
     "evos": [],
     "moves": [
@@ -20478,7 +20481,7 @@
       }
     ]
   },
-  "240": {
+  "241": {
     "name": "MISSINGNO",
     "types": [
       "NORMAL",
@@ -20501,7 +20504,7 @@
     },
     "evos": [],
     "evoline": [
-      240
+      241
     ],
     "moves": [
       {
@@ -20543,6 +20546,93 @@
         "level": 50,
         "move": "HYPER_BEAM",
         "type": "NORMAL"
+      }
+    ]
+  },
+  "135": {
+    "name": "ELEKID",
+    "types": [
+      "ELECTRIC"
+    ],
+    "stats": {
+      "hp": 50,
+      "atk": 63,
+      "def": 37,
+      "spd": 100,
+      "satk": 65,
+      "sdef": 55,
+      "total": 370
+    },
+    "dex": {
+      "species": "ELECTRIC",
+      "height": 200,
+      "weight": 520,
+      "text": "It loves violent thunder. The space between its horns flickers bluish-white when it is charging energy."
+    },
+    "evoline": [
+      134,
+      135,
+      136,
+      137
+    ],
+    "evos": [
+      {
+        "method": "EVOLVE_LEVEL",
+        "param": "35",
+        "target": 136,
+        "target_name": "ELECTABUZZ"
+      }
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "move": "THUNDERSHOCK",
+        "type": "ELECTRIC"
+      },
+      {
+        "level": 1,
+        "move": "LEER",
+        "type": "NORMAL"
+      },
+      {
+        "level": 7,
+        "move": "QUICK_ATTACK",
+        "type": "NORMAL"
+      },
+      {
+        "level": 17,
+        "move": "LOW_KICK",
+        "type": "FIGHTING"
+      },
+      {
+        "level": 21,
+        "move": "LIGHT_SCREEN",
+        "type": "PSYCHIC"
+      },
+      {
+        "level": 25,
+        "move": "SWIFT",
+        "type": "NORMAL"
+      },
+      {
+        "level": 30,
+        "move": "THUNDERPUNCH",
+        "type": "ELECTRIC"
+      },
+      {
+        "level": 36,
+        "move": "SCREECH",
+        "type": "NORMAL"
+      },
+      {
+        "level": 42,
+        "move": "THUNDERBOLT",
+        "type": "ELECTRIC"
+      },
+      {
+        "level": 52,
+        "move": "THUNDER",
+        "type": "ELECTRIC"
       }
     ]
   }
