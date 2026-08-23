@@ -975,9 +975,11 @@ function openDetail(pid) {
     pokemon.dex && pokemon.dex.text ? '"' + pokemon.dex.text + '"' : '—';
   if (pokemon.dex && pokemon.dex.height) {
     const heightRaw = pokemon.dex.height, weightRaw = pokemon.dex.weight;
-    const feet = Math.floor(heightRaw / 100), inches = Math.round((heightRaw % 100) * 0.393701);
+    // Stored exactly as the ROM stores them: height is feet*100 + inches,
+    // weight is pounds * 10.
+    const feet = Math.floor(heightRaw / 100), inches = heightRaw % 100;
     document.getElementById('detail-dex-hw').textContent =
-      `Height: ${feet}'${inches.toString().padStart(2,'0')}"  Weight: ${(weightRaw/10).toFixed(1)} kg`;
+      `Height: ${feet}'${inches.toString().padStart(2,'0')}"  Weight: ${(weightRaw/10).toFixed(1)} lb`;
   } else {
     document.getElementById('detail-dex-hw').textContent = '';
   }
