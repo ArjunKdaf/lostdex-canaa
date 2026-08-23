@@ -3305,7 +3305,8 @@
     },
     "evoline": [
       41,
-      42
+      42,
+      43
     ],
     "evos": [
       {
@@ -3396,7 +3397,8 @@
     },
     "evoline": [
       41,
-      42
+      42,
+      43
     ],
     "evos": [
       {
@@ -3486,6 +3488,8 @@
       "text": "It shares its happiness with those who cherish peace. Strife or discord sends it far, far away."
     },
     "evoline": [
+      41,
+      42,
       43
     ],
     "evos": [],
@@ -6231,7 +6235,10 @@
       "text": "The poison hidden in its small horn is extremely po- tent. Even a tiny scratch can have fatal results."
     },
     "evoline": [
-      78
+      78,
+      79,
+      80,
+      84
     ],
     "evos": [
       {
@@ -6320,6 +6327,7 @@
       "text": "When feeding its young, it first chews and tender- izes the food, then spits it out for the offspring."
     },
     "evoline": [
+      78,
       79,
       80,
       84
@@ -6418,6 +6426,7 @@
       "text": "Its body is cover- ed with needle- like scales. It never shows signs of shrinking from any attack."
     },
     "evoline": [
+      78,
       79,
       80,
       84
@@ -6482,7 +6491,10 @@
       "text": "It is small, but its horn is filled with poison. It charges then stabs with the horn to inject poison."
     },
     "evoline": [
-      81
+      81,
+      82,
+      83,
+      84
     ],
     "evos": [
       {
@@ -6571,6 +6583,7 @@
       "text": "It raises its big ears to check its surroundings. If it senses any- thing, it attacks immediately."
     },
     "evoline": [
+      81,
       82,
       83,
       84
@@ -6669,6 +6682,7 @@
       "text": "It swings its big tail around during battle. If its foe flinches, it will charge with its sturdy body."
     },
     "evoline": [
+      81,
       82,
       83,
       84
@@ -6734,6 +6748,7 @@
       "text": "Said to have come from the moon. It has toxic spines which can be used to make powerful MAX ELIXERs."
     },
     "evoline": [
+      81,
       82,
       83,
       84
@@ -10496,7 +10511,10 @@
       "text": "It is always bursting with en- ergy. To make it- self stronger, it keeps on fighting even if it loses."
     },
     "evoline": [
-      127
+      127,
+      128,
+      129,
+      130
     ],
     "evos": [
       {
@@ -10562,7 +10580,10 @@
       "text": "This amazing #- MON has an awesome sense of balance. It can kick in succession from any position."
     },
     "evoline": [
-      128
+      127,
+      128,
+      129,
+      130
     ],
     "evos": [],
     "moves": [
@@ -10659,7 +10680,10 @@
       "text": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
     },
     "evoline": [
-      129
+      127,
+      128,
+      129,
+      130
     ],
     "evos": [],
     "moves": [
@@ -10766,6 +10790,9 @@
       "text": "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard."
     },
     "evoline": [
+      127,
+      128,
+      129,
       130
     ],
     "evos": [],
@@ -11164,9 +11191,9 @@
     "evos": [
       {
         "method": "EVOLVE_LEVEL",
-        "param": "15",
-        "target": 140,
-        "target_name": "ELEKID"
+        "param": "30",
+        "target": 135,
+        "target_name": "MAGMAR"
       }
     ],
     "moves": [
@@ -11877,6 +11904,7 @@
     },
     "evoline": [
       143,
+      144,
       145
     ],
     "evos": [
@@ -11986,7 +12014,9 @@
       "text": "Its nimble ballet moves compell foes to spin themselves out too. Spinning them right into a confused state."
     },
     "evoline": [
-      144
+      143,
+      144,
+      145
     ],
     "evos": [
       {
@@ -12115,6 +12145,8 @@
       "text": "A skilled mime from birth, it gains the ability to create invisi- ble objects as it matures."
     },
     "evoline": [
+      143,
+      144,
       145
     ],
     "evos": [],
@@ -12233,7 +12265,9 @@
       "text": "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them."
     },
     "evoline": [
-      146
+      146,
+      147,
+      148
     ],
     "evos": [
       {
@@ -12334,6 +12368,7 @@
       "text": "A rarely seen strange breed. Research revealed that what it holds is the head of an onion stalk."
     },
     "evoline": [
+      146,
       147,
       148
     ],
@@ -12417,6 +12452,7 @@
       "text": "A FARFETCH'D that wields a huge leek evolves into this form. It guards attacks using its leaf shield."
     },
     "evoline": [
+      146,
       147,
       148
     ],
@@ -13633,8 +13669,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -13772,8 +13808,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -13862,8 +13898,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -13952,8 +13988,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -14042,8 +14078,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -14152,8 +14188,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -14242,8 +14278,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -14332,8 +14368,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -14422,8 +14458,8 @@
     },
     "evoline": [
       162,
-      164,
       163,
+      164,
       165,
       166,
       167,
@@ -16572,12 +16608,6 @@
         "param": "ICE_STONE",
         "target": 194,
         "target_name": "WEAVILE"
-      },
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "POISON_STONE",
-        "target": 198,
-        "target_name": "PORYGON"
       }
     ],
     "moves": [
@@ -16982,26 +17012,21 @@
     "evoline": [
       198,
       199,
-      200
+      200,
+      201
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
+        "target": 199,
+        "target_name": "BETAGON"
+      },
+      {
+        "method": "EVOLVE_ITEM",
+        "param": "UP_GRADE",
         "target": 200,
         "target_name": "PORYGON2"
-      },
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "UP_GRADE",
-        "target": 193,
-        "target_name": "SNEASEL"
-      },
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "UP_GRADE",
-        "target": 193,
-        "target_name": "SNEASEL"
       }
     ],
     "moves": [
@@ -17085,7 +17110,8 @@
     "evoline": [
       198,
       199,
-      200
+      200,
+      201
     ],
     "evos": [],
     "moves": [
@@ -17169,14 +17195,15 @@
     "evoline": [
       198,
       199,
-      200
+      200,
+      201
     ],
     "evos": [
       {
         "method": "EVOLVE_ITEM",
         "param": "HEART_STONE",
-        "target": 202,
-        "target_name": "HAPPINY"
+        "target": 201,
+        "target_name": "PORYGON-Z"
       }
     ],
     "moves": [
@@ -17258,6 +17285,9 @@
       "text": "Additional software was installed to make it a better Pokemon. It began acting oddly, however."
     },
     "evoline": [
+      198,
+      199,
+      200,
       201
     ],
     "evos": [],
@@ -18529,7 +18559,7 @@
     "name": "BALUMBA",
     "types": [
       "NORMAL",
-      "GROUND"
+      "FLYING"
     ],
     "stats": {
       "hp": 115,
