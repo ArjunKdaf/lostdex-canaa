@@ -3906,12 +3906,6 @@
         "param": "POISON_STONE",
         "target": 49,
         "target_name": "GENGAR"
-      },
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "POISON_STONE",
-        "target": 49,
-        "target_name": "GENGAR"
       }
     ],
     "moves": [
@@ -5466,12 +5460,6 @@
         "param": "KINGS_ROCK",
         "target": 69,
         "target_name": "SLOWKING"
-      },
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "KINGS_ROCK",
-        "target": 69,
-        "target_name": "SLOWKING"
       }
     ],
     "moves": [
@@ -5779,12 +5767,6 @@
       72
     ],
     "evos": [
-      {
-        "method": "EVOLVE_LEVEL",
-        "param": "38",
-        "target": 72,
-        "target_name": "ALAKAZAM"
-      },
       {
         "method": "EVOLVE_LEVEL",
         "param": "38",
@@ -14674,12 +14656,6 @@
       173
     ],
     "evos": [
-      {
-        "method": "EVOLVE_ITEM",
-        "param": "DRAGON_SCALE",
-        "target": 173,
-        "target_name": "KINGDRA"
-      },
       {
         "method": "EVOLVE_ITEM",
         "param": "DRAGON_SCALE",
