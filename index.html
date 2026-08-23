@@ -1155,7 +1155,10 @@ function getEvoMethod(fromPid, toPid) {
   if (method === 'EVOLVE_ITEM') return param.replace(/_/g,' ').toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
   if (method === 'EVOLVE_TRADE') return param && param !== '-1' ? 'Trade\n(' + param.replace(/_/g,' ') + ')' : 'Trade';
   if (method === 'EVOLVE_HAPPINESS') return 'Happiness';
-  if (method === 'EVOLVE_STAT') return 'Lv.' + param + '\n(Stat)';
+  if (method === 'EVOLVE_STAT') {
+    const conditions = {ATK_LT_DEF: 'ATK &lt; DEF', ATK_GT_DEF: 'ATK &gt; DEF', ATK_EQ_DEF: 'ATK = DEF'};
+    return 'Lv.' + param + '<br>' + (conditions[evo.condition] || 'Stat');
+  }
   return '';
 }
 
