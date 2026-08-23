@@ -1314,7 +1314,7 @@
     "dex": {
       "species": "CATERPILLAR",
       "height": 100,
-      "weight": 50,
+      "weight": 80,
       "text": "Closely related to WEEDLE. Due to the lack of a horn, it hides under tall trees, gnawing on their roots."
     },
     "evoline": [
@@ -1354,8 +1354,8 @@
     },
     "dex": {
       "species": "COCOON",
-      "height": 104,
-      "weight": 110,
+      "height": 207,
+      "weight": 220,
       "text": "While it awaits evolution, it barely moves. If threatened, it shudders while throwing punches."
     },
     "evoline": [
@@ -1401,8 +1401,8 @@
     },
     "dex": {
       "species": "FOREST",
-      "height": 305,
-      "weight": 500,
+      "height": 311,
+      "weight": 760,
       "text": "It's often called the Forest Gent. CARAPTHOR strolls around forests with swagger, to BEEDRILL's ire."
     },
     "evoline": [
@@ -6726,7 +6726,7 @@
     "dex": {
       "species": "LUNAR",
       "height": 307,
-      "weight": 1400,
+      "weight": 800,
       "text": "Said to have come from the moon. It has toxic spines which can be used to make powerful MAX ELIXERs."
     },
     "evoline": [
@@ -7977,7 +7977,7 @@
     "dex": {
       "species": "MAGNET",
       "height": 204,
-      "weight": 260,
+      "weight": 400,
       "text": "Occasionally, it attracts so much metal to itself that it loses its ability to stay levitating."
     },
     "evoline": [
@@ -8148,7 +8148,7 @@
     "dex": {
       "species": "MAGNETAREA",
       "height": 311,
-      "weight": 1800,
+      "weight": 3970,
       "text": "Constantly emits strong magnetism from its three units. Its antenna receives strange radio waves."
     },
     "evoline": [
@@ -8400,8 +8400,8 @@
     },
     "dex": {
       "species": "FOX",
-      "height": 170,
-      "weight": 170,
+      "height": 104,
+      "weight": 120,
       "text": "It hides in the care of its mother while it begins to kindle the fire energy in its small tails."
     },
     "evoline": [
@@ -9136,7 +9136,7 @@
       "species": "SEAL",
       "height": 202,
       "weight": 850,
-      "text": "Gathers in groups along cold rocky shores. It balances a ball on its nose to attract a mate during courtship."
+      "text": "Gathers in groups along cold rocky shores, balancing a ball on its nose to attract a mate during courtship."
     },
     "evoline": [
       112
@@ -9520,7 +9520,7 @@
       "species": "KITTEN",
       "height": 101,
       "weight": 80,
-      "text": "Carefree and full of curiosity, it wanders the city at night. Its sharp claws easily scratch through skin."
+      "text": "Carefree and full of curiosity, it wanders the city at night. Its sharp claws easily tear through skin."
     },
     "evoline": [
       116,
@@ -9771,7 +9771,7 @@
       "species": "CORAL",
       "height": 100,
       "weight": 110,
-      "text": "Forms colorful reefs in warm tropical waters. Schools of fish seek shelter in its branching arms."
+      "text": "Forms colorful reefs in warm tropical waters. Schools of fish shelter among its branching arms."
     },
     "evoline": [
       119,
@@ -11074,7 +11074,7 @@
     "dex": {
       "species": "LONG NECK",
       "height": 1102,
-      "weight": 1600,
+      "weight": 3527,
       "text": "It feeds on fruit high in the trees that others cannot reach. Its long neck also lets it spot danger early."
     },
     "evoline": [
@@ -11349,8 +11349,8 @@
     },
     "dex": {
       "species": "BLAST",
-      "height": 407,
-      "weight": 680,
+      "height": 503,
+      "weight": 1500,
       "text": "Blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. It avoids this when hunting prey."
     },
     "evoline": [
@@ -11802,7 +11802,7 @@
     "dex": {
       "species": "THUNDERBOLT",
       "height": 511,
-      "weight": 1385,
+      "weight": 3060,
       "text": "When it's excited, it beats its chest repeatedly. With every thud, it discharges sparks of electricity."
     },
     "evoline": [
@@ -11888,7 +11888,7 @@
       "species": "DANCER",
       "height": 201,
       "weight": 210,
-      "text": "It trains daily to perfect its graceful movements. Rivals are often entranced watching it battle dance."
+      "text": "It trains daily to perfect its graceful moves. Rivals are often entranced watching it battle dance."
     },
     "evoline": [
       143,
@@ -12435,8 +12435,8 @@
     },
     "dex": {
       "species": "WILD DUCK",
-      "height": 406,
-      "weight": 1257,
+      "height": 207,
+      "weight": 2580,
       "text": "A FARFETCH'D that wields a huge leek evolves into this form. It guards attacks using its leaf shield."
     },
     "evoline": [
@@ -12525,7 +12525,7 @@
     },
     "dex": {
       "species": "INK",
-      "height": 204,
+      "height": 211,
       "weight": 400,
       "text": "A descendant of the ancient OMANYTE. BLOTTLE shells are often collected and sold as souvenirs."
     },
@@ -12606,8 +12606,8 @@
     },
     "dex": {
       "species": "TENTACLE",
-      "height": 500,
-      "weight": 1250,
+      "height": 710,
+      "weight": 2580,
       "text": "It often clashes with TENTACRUEL. It sprays ink in its foe's face, disorienting it before attacking."
     },
     "evoline": [
@@ -13473,7 +13473,7 @@
       "species": "ALGAE",
       "height": 303,
       "weight": 350,
-      "text": "Floats silently in calm tropical seas. Sailors mistake it for seaweed until it suddenly lashes out with its arms."
+      "text": "Floats silently in calm tropic seas. Sailors mistake it for seaweed until it suddenly lashes out with its arms."
     },
     "evoline": [
       158,
@@ -14351,7 +14351,7 @@
     "dex": {
       "species": "FRESH SNOW",
       "height": 207,
-      "weight": 573,
+      "weight": 570,
       "text": "It causes small ice crystals to form by lowering the temperature of the surrounding atmosphere."
     },
     "evoline": [
@@ -14441,7 +14441,7 @@
     "dex": {
       "species": "INTERTWINED",
       "height": 303,
-      "weight": 518,
+      "weight": 520,
       "text": "It wraps its ribbonlike feelers around the arm of its beloved train- er and walks with them."
     },
     "evoline": [
@@ -14922,7 +14922,7 @@
       "species": "STRAW",
       "height": 100,
       "weight": 55,
-      "text": "A peculiar bird that nests in old scarecrows. It collects shiny objects to decorate its nesting place."
+      "text": "A peculiar bird that nests in old scarecrows. It collects shiny objects to adorn its nesting place."
     },
     "evoline": [
       175,
@@ -15027,7 +15027,7 @@
       "species": "PANGOLIN",
       "height": 303,
       "weight": 750,
-      "text": "It rolls into a ball when threatened, protecting itself with its hard scale-covered body. Hard to uncurl."
+      "text": "If threatened, it rolls into a ball, protecting itself with its tough, scaly body. It is hard to uncurl."
     },
     "evoline": [
       175,
@@ -16479,7 +16479,7 @@
       "species": "HOWL",
       "height": 407,
       "weight": 1340,
-      "text": "A pack leader that howls to call its allies from afar. Its howl echoes for many miles in quiet mountain air."
+      "text": "A pack leader that howls to call its allies from afar. Its howl echoes for many miles in calm mountain air."
     },
     "evoline": [
       191,
@@ -16752,7 +16752,7 @@
       "species": "FOSSIL",
       "height": 301,
       "weight": 450,
-      "text": "A primitive Pokemon restored from a fossil. It glides on rocky wings but cannot truly fly yet."
+      "text": "A primitive #MON restored from a fossil. It glides on rocky wings but cannot truly fly yet."
     },
     "evos": [
       {
@@ -16828,7 +16828,7 @@
       "species": "FOSSIL",
       "height": 511,
       "weight": 1300,
-      "text": "A vicious Pokemon from the distant past, it attacks with its serrated, saw-like fangs."
+      "text": "A vicious #MON from the distant past, it appears to have flown by spreading its wings and gliding."
     },
     "evos": [],
     "evoline": [
@@ -16907,7 +16907,7 @@
       "species": "FOSSIL",
       "height": 502,
       "weight": 1200,
-      "text": "An ancient fossil Pokemon that haunts caves. Its body is made of petrified bone and shadow. It never rests."
+      "text": "An ancient fossil #MON that haunts caves. Its body is made of petrified bone and shadow. It never rests."
     },
     "evos": [],
     "evoline": [
@@ -17262,9 +17262,9 @@
     },
     "dex": {
       "species": "VIRTUAL",
-      "height": 29,
-      "weight": 340,
-      "text": "Additional software was installed to make it a better Pokemon. It began acting oddly, however."
+      "height": 211,
+      "weight": 750,
+      "text": "Corrupted by a faulty update added to it, this #MON exhibits strange behaviour and movements."
     },
     "evoline": [
       198,
@@ -17341,13 +17341,10 @@
       "atk": 5,
       "def": 5,
       "spd": 30,
-      "sat": 15,
-      "sdf": 65
+      "satk": 15,
+      "sdef": 65,
+      "total": 220
     },
-    "abilities": [
-      "NATURAL_CURE",
-      "SERENE_GRACE"
-    ],
     "moves": [
       {
         "level": 1,
@@ -17380,17 +17377,11 @@
         "type": "NORMAL"
       }
     ],
-    "evolutions": [
-      {
-        "method": "happiness",
-        "into": "CHANSEY"
-      }
-    ],
     "dex": {
       "species": "PLAYFUL",
-      "height": 2,
-      "weight": 244,
-      "text": "It carries a roundish white stone in its pouch."
+      "height": 200,
+      "weight": 538,
+      "text": "It carries a roundish white stone in its pouch, imitating the egg-shaped thing on CHANSEY."
     },
     "evoline": [
       202,
@@ -20546,7 +20537,7 @@
       "species": "ELECTRIC",
       "height": 200,
       "weight": 520,
-      "text": "It loves violent thunder. The space between its horns flickers bluish-white when it is charging energy."
+      "text": "Its lemon-ish body works like a battery by taking in electricity through its small head antenna."
     },
     "evoline": [
       139,
