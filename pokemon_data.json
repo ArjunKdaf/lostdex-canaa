@@ -16764,7 +16764,8 @@
     ],
     "evoline": [
       195,
-      196
+      196,
+      197
     ],
     "moves": [
       {
@@ -16830,10 +16831,18 @@
       "weight": 1300,
       "text": "A vicious #MON from the distant past, it appears to have flown by spreading its wings and gliding."
     },
-    "evos": [],
+    "evos": [
+      {
+        "method": "EVOLVE_FAINT",
+        "param": "",
+        "target": 197,
+        "target_name": "PTEROFOSS"
+      }
+    ],
     "evoline": [
       195,
-      196
+      196,
+      197
     ],
     "moves": [
       {
@@ -16907,10 +16916,12 @@
       "species": "FOSSIL",
       "height": 502,
       "weight": 1200,
-      "text": "An ancient fossil #MON that haunts caves. Its body is made of petrified bone and shadow. It never rests."
+      "text": "An anomaly that should not exist. Whatever it looks upon is followed from that day on by something cold."
     },
     "evos": [],
     "evoline": [
+      195,
+      196,
       197
     ],
     "moves": [
